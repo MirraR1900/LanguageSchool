@@ -1,10 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-     /*
-    background-position: center;
-    background-attachment: fixed; */
-
 }
 
 .container {
@@ -74,30 +70,23 @@ body {
     text-align: center;  
 }
 
-
 .navigationList {
-    margin: 0;
+    /* border: 3px solid white; */
+    margin-bottom: 10px;
 }
 .navigationList li {
+    margin: 0 20px 15px 20px;
     display: inline;
     text-align: center;
-}
-
-ul.en a {
-    display: inline-block;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.5em;
     font-family: 'Times New Roman', Times, serif;
-    width: 260px;
-    padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .visible {
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-bottom: 6px solid rgb(255, 255, 255);
+    border-bottom: 6px solid white;
 }
 
 .hidden {
@@ -108,7 +97,7 @@ ul.en a {
     display: none;
     text-align: center;  
 }
-
+/*
 ul.de a {
     display: inline-block;
     text-decoration: none;
@@ -127,7 +116,7 @@ ul.de a {
 }
 .hiddenDe {
     border-bottom: none;
-}
+} */
 
 .main {
     height: 500px;

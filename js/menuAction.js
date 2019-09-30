@@ -23,11 +23,11 @@ $(function() {
         console.log(flagLanguage);
     });
 
-    $('a').mouseover(function(event) {
+    $('li').mouseover(function(event) {
         let target = $(event.target);
-            if(target.is("a")) {
-             let parent = target.parent();
-             let li = $('a');
+            if(target.is("li")) {
+            //  let parent = target.parent();
+             let li = $('li');
                 if(li != target) {
                   li.css({'filter': 'blur(2px)'});
                   target.css('filter', 'none');
@@ -35,9 +35,17 @@ $(function() {
             }
     });
 
-    $('a').mouseout(function(event) {
-        $('a').css('filter', 'none');
+    $('li').mouseout(function() {
+        $('li').css('filter', 'none');
     });
 
+    $('li').click(function(event) {
+        $('li').removeClass('visible');
+        $('li').addClass('hidden');
+        let target = $(event.target);
+        target.removeClass('hidden');
+        target.addClass('visible');
+    });
+  
 });
 
