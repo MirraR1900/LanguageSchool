@@ -47,7 +47,7 @@ $(function() {
                           
         });
             x++;
-
+            
             if($(current).attr("class") == 'listQuestions20') {
                 $('.buttonTest').css('display', 'none');
                 checkAnswers();

@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    /* overflow-x: hidden; */
 }
 
 @font-face {
@@ -39,7 +40,6 @@ body {
     font-family: 'Prata', serif;
     text-align: right;
     padding-right: 1em;
-    /* border: 1px solid white; */
 }
 .name {
     color: rgba(255, 255, 255, 0.8);
@@ -47,27 +47,21 @@ body {
     font-size: 7em;
     font-weight: 900;
     text-align: center;
-    /* border: 4px solid white; */
 }
 .languages {
     display: flex;
     font-family: 'Prata', serif;
-    /* border: 2px solid red; */
 }
 
 .englishEn, .germanEn {
     flex: 1;
     background-color: rgba(0, 0, 0, 0.4);
-    /* margin-bottom: 1.5em; */
-    /* border: 2px solid yellow; */
 }
 
 
 .englishDe, .germanDe{
     flex: 1;
     background-color: rgba(0, 0, 0, 0.4);
-    /* margin-bottom: 1.5em; */
-    /* border: 2px solid yellow; */
 }
 
 .englishEn p, .germanEn p {
@@ -185,7 +179,6 @@ body {
     margin: 30px;
     max-width: 300px;
     border-radius: 100px;
-    box-shadow: 0 0 0 10px rgba(0, 0, 255, 0.1), 0 0 13px #333; 
 }
 
 .grid {
@@ -226,7 +219,6 @@ body {
     width: 20px;
     margin: 0 20px 0 20px;
     border: 2px solid rgb(128, 128, 128);
-    /* box-shadow: inset 2px 2px 10px rgb(75, 0, 130); */
 }
 
 .listTest input[type="radio"]:checked + label { 
@@ -267,10 +259,13 @@ body {
     font-family: 'Prata', serif;
 }
 
+.containerReason {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
 .reasonNumber {
-    display: flex;
-    margin-bottom: 3em;
-   border-bottom: 1px solid rgb(169, 169, 169);
+
 }
 
 .reasonNumber h2 {
@@ -281,19 +276,17 @@ body {
     font-size: 1.5em;
 }
 .imageReason {
-    flex: 1;
-    /* border: 4px solid magenta; */
+    text-align: center;;
 }
 .imageReason img{
-    margin: 20px 0 0 20px;
-    max-width: 300px;
-    max-height: 250px;
-    border-radius: 100px;
-    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1), 0 0 13px #333;
+    margin-top: 10px;
+    max-width: 250px;
+    max-height: 150px;
+    border-radius: 30px;
 }
 .text {
-    flex: 2;
-    /* border:  3px solid yellow; */
+   padding: 10px;
+   text-align: center;
 }
 
 .footer {
