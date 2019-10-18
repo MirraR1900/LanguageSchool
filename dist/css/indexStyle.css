@@ -1,0 +1,246 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* overflow-x: hidden; */ }
+
+@font-face {
+  font-family: 'Prata';
+  src: url(https://fonts.googleapis.com/css?family=Prata&display=swap); }
+
+@font-face {
+  font-family: 'Mansalva';
+  src: url(https://fonts.googleapis.com/css?family=Mansalva&display=swap); }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: rgba(106, 90, 205, 0.4); }
+
+.headerEn {
+  background: url(../images/towerBridge.jpg) no-repeat;
+  background-size: 100% 100%; }
+
+.headerDe {
+  background: url(../images/brandenburgGate.jpg) no-repeat;
+  background-size: 100% 100%; }
+
+.info {
+  color: lightcyan;
+  font-size: 1.8em;
+  font-family: 'Prata', serif;
+  text-align: right;
+  padding-right: 1em; }
+
+.name {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 'Mansalva', cursive;
+  font-size: 7em;
+  font-weight: 900;
+  text-align: center; }
+
+.languages {
+  display: flex;
+  font-family: 'Prata', serif; }
+
+.englishEn, .germanEn {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.englishDe, .germanDe {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.englishEn p, .germanEn p {
+  text-align: center; }
+
+.englishDe p, .germanDe p {
+  text-align: center; }
+
+.englishEn a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+  cursor: pointer; }
+
+.germanEn a {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 1.7em;
+  cursor: pointer; }
+
+.englishDe a {
+  text-decoration: none;
+  color: darkgray;
+  font-size: 1.7em;
+  cursor: pointer; }
+
+.germanDe a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.7em;
+  cursor: pointer; }
+
+.englishEn img, .germanEn img {
+  max-width: 100px; }
+
+.englishDe img, .germanDe img {
+  max-width: 100px; }
+
+.navigationEnglish {
+  list-style: none;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); }
+
+.navigationList li {
+  display: inline; }
+
+.navigationList a {
+  margin: 0 20px 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 1.4em;
+  font-family: 'Prata', serif;
+  cursor: pointer; }
+
+.visible {
+  border-bottom: 6px solid white; }
+
+.hidden {
+  border-bottom: none; }
+
+.navigationGerman {
+  display: none;
+  text-align: center; }
+
+.description {
+  display: flex; }
+
+.image {
+  flex: 1; }
+
+.textDescription {
+  flex: 2; }
+
+.headlineRight {
+  text-align: right;
+  margin-right: 1.5em;
+  font-size: 2em;
+  color: rgba(138, 43, 226, 0.5);
+  font-family: 'Prata', serif; }
+
+.headlineLeft {
+  text-align: left;
+  margin-right: 1.5em;
+  margin-left: 1.5em;
+  font-size: 2em;
+  color: rgba(138, 43, 226, 0.5);
+  font-family: 'Prata', serif; }
+
+.textDescription > p {
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Prata', serif; }
+
+.image img {
+  margin: 30px;
+  max-width: 300px;
+  border-radius: 100px; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%; }
+
+.listTest > p {
+  margin-left: 1.5em;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.2em;
+  font-family: 'Prata', serif; }
+
+.listTest {
+  height: 350px; }
+
+.listTest div.listQuestions1 {
+  display: block; }
+
+.listTest div {
+  display: none;
+  color: white;
+  font-size: 1.5em;
+  padding: 0 0 0 70px; }
+
+.listTest input[type="radio"] {
+  display: none; }
+
+.listTest label {
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: 0 20px 0 20px;
+  border: 2px solid gray; }
+
+.listTest input[type="radio"]:checked + label {
+  background-color: indigo;
+  border: 3px solid white; }
+
+.answerContainer {
+  display: none; }
+
+.buttonTestContainer {
+  padding-left: 50px; }
+
+.buttonTest {
+  width: 200px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: rgba(123, 104, 238, 0.5);
+  color: white;
+  font-size: 1em;
+  font-family: 'Prata', serif; }
+
+.buttonEnroll {
+  width: 300px;
+  height: 50px;
+  font-size: 18px;
+  font-family: 'Prata', serif;
+  color: white;
+  background-color: mediumpurple;
+  border: 1px solid white;
+  border-radius: 30px; }
+
+.reason {
+  font-family: 'Prata', serif; }
+
+.containerReason {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 10px; }
+
+.reasonNumber h2 {
+  color: lightcyan; }
+
+.reasonNumber p {
+  color: white;
+  font-size: 1.5em; }
+
+.imageReason {
+  text-align: center; }
+
+.imageReason img {
+  margin-top: 10px;
+  max-width: 250px;
+  max-height: 150px;
+  border-radius: 30px; }
+
+.text {
+  padding: 10px;
+  text-align: center; }
+
+.footer {
+  border: 2px solid green;
+  height: 150px; }
