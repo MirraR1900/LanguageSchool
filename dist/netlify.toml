@@ -1,0 +1,10 @@
+# global context
+[build]
+  publish = "public"
+  command = "gulp"
+# build a preview (optional)
+[context.deploy-preview]
+  command = "gulp"
+# build a branch with debug (optional)
+[context.branch-deploy]
+  command = "gulp"
