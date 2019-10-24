@@ -6,7 +6,6 @@
         <title>Language School</title>
         <link rel="stylesheet" href="css/indexStyle.css">
         <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-        <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script> -->
 </head>
 
 <body>
@@ -434,12 +433,61 @@
                                         </form>
                                 </div>
                         </div>
+                        <div class="price">
+                                 <div class="headlineRight">
+                                        <p>Стоимость занятий</p>
+                                </div>
+                                <div class="costCalculation">
+                                        <section>
+                                                <p class="headline">Шаг 1. Выберите возраст.</p>
+                                                <p class="age">
+                                                        <button id="adults">Взрослые</button>
+                                                        <button id="pupils">Школьники</button>
+                                                        <button id="preschoolers">Дошкольники</button>
+                                                </p>
+                                        </section>
+                                        <section>
+                                                <p class="headline">Шаг 2. Выберите преподавателя.</p>
+                                                <p class="teacher">
+                                                        <button id="russianSpeaker">Русскоязычный</button>
+                                                        <button id="native">Носители языка со знанием русского языка</button>
+                                                </p>
+                                        </section>
+                                        <section>
+                                        <p class="headline">Шаг 3. Выберите курс.</p>
+                                                <p class="course">
+                                                        <button id="miniGroup">Занятия в группе от 3 до 5 человек</button><br>
+                                                        <button id="bigGroup">Занятия в группе от 5 человек</button><br>
+                                                        <button id="privatelLessons">Индивидуальные занятия</button><br>
+                                                        <button id="examPreparation">Подготовка к ЕГЭ</button><br>
+                                                        <button id="internationalExam">Подготовка к международному экзамену</button>
+                                                        </p>
+                                        </section>
+                                        <section>
+                                                <p class="headline">Шаг 4. Выберите интенсивность.</p>
+                                                <p class="intensity">
+                                                        <button id="threeHours">3 часа в неделю</button>
+                                                        <button id="fourHours">4 часа в неделю</button>
+                                                        <button id="sixHours">6 часов в неделю</button>
+                                                </p>
+                                        </section>
+                                        <section>
+                                                <p class="headline">Шаг 5. Выберите дни недели.</p>
+                                                 <p class="days">
+                                                        <button id="weekdays">Будни</button>
+                                                        <button id="weekend">Выходные</button>
+                                                        <button id="weekdaysAndWeekend">Будни + выходные</button>
+                                                </p>
+                                        </section>
+                                </div>
+                        </div>
                 </div>
                 <div class="footer" id="footer"></div>
         </div>
 
         <script src="js/menuAction.js"></script>
         <script src="js/test.js"></script>
+        <script src="js/price.js"></script>
 </body>
 
 </html>
