@@ -16,10 +16,10 @@ body {
   grid-template-columns: 1fr;
   max-width: 1280px;
   margin: 0 auto;
-  background: rgba(106, 90, 205, 0.4); }
+  background: #48489c; }
 
 .headerEn {
-  background: url(../images/towerBridge.jpg) no-repeat;
+  background: url(../images/londonBridge.jpg) no-repeat;
   background-size: 100% 100%; }
 
 .headerDe {
@@ -29,7 +29,7 @@ body {
 .info {
   color: lightcyan;
   font-size: 1.8em;
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
   text-align: right;
   padding-right: 1em; }
 
@@ -42,7 +42,7 @@ body {
 
 .languages {
   display: flex;
-  font-family: 'Prata', serif; }
+  font-family: "Prata", serif; }
 
 .englishEn, .germanEn {
   flex: 1;
@@ -102,7 +102,7 @@ body {
   text-decoration: none;
   color: white;
   font-size: 1.4em;
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
   cursor: pointer; }
 
 .visible {
@@ -128,21 +128,21 @@ body {
   text-align: right;
   margin-right: 1.5em;
   font-size: 2em;
-  color: rgba(138, 43, 226, 0.5);
-  font-family: 'Prata', serif; }
+  color: white;
+  font-family: "Prata", serif; }
 
 .headlineLeft {
   text-align: left;
   margin-right: 1.5em;
   margin-left: 1.5em;
   font-size: 2em;
-  color: rgba(138, 43, 226, 0.5);
-  font-family: 'Prata', serif; }
+  color: white;
+  font-family: "Prata", serif; }
 
 .textDescription > p {
   color: white;
   font-size: 1.5em;
-  font-family: 'Prata', serif; }
+  font-family: "Prata", serif; }
 
 .image img {
   margin: 30px;
@@ -157,7 +157,7 @@ body {
   margin-left: 1.5em;
   color: rgba(255, 255, 255, 0.6);
   font-size: 1.2em;
-  font-family: 'Prata', serif; }
+  font-family: "Prata", serif; }
 
 .listTest {
   height: 350px; }
@@ -198,31 +198,68 @@ body {
   height: 50px;
   border: 2px solid white;
   border-radius: 30px;
-  background-color: rgba(123, 104, 238, 0.5);
+  background: none;
   color: white;
   font-size: 1em;
-  font-family: 'Prata', serif; }
+  font-family: "Prata", serif; }
 
 .buttonEnroll {
   width: 300px;
   height: 50px;
   font-size: 18px;
-  font-family: 'Prata', serif;
+  font-family: "Prata", serif;
   color: white;
   background-color: mediumpurple;
   border: 1px solid white;
   border-radius: 30px; }
 
 .reason {
-  font-family: 'Prata', serif; }
+  font-family: "Prata", serif; }
 
-.containerReason {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 10px; }
+.background {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 650px; }
+
+.reasonNumber1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  background: url("../images/lecture.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
+
+.reasonNumber2 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  background: url("../images/time.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
+
+.reasonNumber3 {
+  grid-column: 1/3;
+  grid-row: 2;
+  background: url("../images/online.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
+
+.reasonNumber4 {
+  background: url("../images/group.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
+
+.reasonNumber5 {
+  grid-column: 2/4;
+  grid-row: 3;
+  background: url("../images/teacher.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
 
 .reasonNumber h2 {
-  color: lightcyan; }
+  color: white; }
 
 .reasonNumber p {
   color: white;
@@ -239,7 +276,39 @@ body {
 
 .text {
   padding: 10px;
-  text-align: center; }
+  text-align: center;
+  font-size: 25px;
+  color: white; }
+
+.containerForm {
+  width: 500px;
+  margin: 0 auto; }
+
+.formfreeLesson legend {
+  color: white;
+  font-size: 30px; }
+
+.formfreeLesson label {
+  color: white;
+  font-size: 25px; }
+
+.formfreeLesson input {
+  width: 350px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: none;
+  margin: 10px 0 20px 10px; }
+
+.btnSend {
+  margin: 30px;
+  width: 250px;
+  font-size: 20px;
+  height: 50px;
+  border: 1px solid white;
+  border-radius: 30px;
+  background: none;
+  color: white; }
 
 .footer {
   border: 2px solid green;

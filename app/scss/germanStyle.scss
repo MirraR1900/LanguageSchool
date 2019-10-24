@@ -1,7 +1,5 @@
 $colorFontWhite: rgb(255, 255, 255);
 $headLineBlueViolet: rgba(138, 43, 226, 0.5);
-$colorInput: rgb(138, 43, 226);
-$colorNavy: rgb(0, 0, 128);
 $fontPrata:  'Prata', serif;
 
 body {
@@ -25,12 +23,11 @@ body {
     grid-template-columns: 1fr;
     max-width: 1280px;
     margin: 0 auto;
-    background: rgb(72, 72, 156);
-
+    background: rgba(106, 90, 205, 0.4);
 }
 
 .headerEn {
-    background: url(../images/londonBridge.jpg) no-repeat; 
+    background: url(../images/towerBridge.jpg) no-repeat; 
     background-size: 100% 100%; 
 }
 
@@ -144,6 +141,8 @@ body {
     text-align: center;  
 }
 
+.main {}
+
 .description {
     display: flex;
 }
@@ -158,7 +157,7 @@ body {
     text-align: right;
     margin-right: 1.5em;
     font-size: 2em;
-    color: $colorFontWhite;
+    color: $headLineBlueViolet;
     font-family: $fontPrata;
 }
 
@@ -167,7 +166,7 @@ body {
     margin-right: 1.5em;
     margin-left: 1.5em;
     font-size: 2em;
-    color: $colorFontWhite;
+    color: $headLineBlueViolet;
     font-family: $fontPrata;
 }
 
@@ -240,7 +239,7 @@ body {
     height: 50px;
     border: 2px solid $colorFontWhite;
     border-radius: 30px;
-    background: none;
+    background-color: rgba(123,104,238,0.5);
     color: $colorFontWhite;
     font-size: 1em;
     font-family: $fontPrata;
@@ -251,7 +250,7 @@ body {
     height: 50px;
     font-size: 18px;
     font-family: $fontPrata;
-    color: $colorFontWhite;
+    color: rgb(255, 255, 255);
     background-color: rgb(147, 112, 219);
     border: 1px solid $colorFontWhite;
     border-radius: 30px;
@@ -261,48 +260,13 @@ body {
     font-family: $fontPrata;
 }
 
-.background {
-   background-color: rgba(0, 0, 0, 0.3);
-   height: 650px;
+.containerReason {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
 }
+.reasonNumber {
 
-.reasonNumber1 {
-    grid-column: 1/3;
-    grid-row: 1/2;
-    background: url("../images/lecture.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 650px;
-}
-.reasonNumber2 {
-    grid-column: 3/4;
-    grid-row: 1/3;
-    background: url("../images/time.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 650px;
-}
-.reasonNumber3 {
-    grid-column: 1/3;
-    grid-row: 2;
-    background: url("../images/online.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 650px;
-}
-.reasonNumber4 {
-    background: url("../images/group.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 650px;
-}
-.reasonNumber5 {
-    grid-column: 2/4;
-    grid-row: 3;
-    background: url("../images/teacher.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    height: 650px;
 }
 
 .reasonNumber h2 {
@@ -324,44 +288,6 @@ body {
 .text {
    padding: 10px;
    text-align: center;
-   font-size: 25px;
-   color: $colorFontWhite;
-}
-
-.containerForm {
-    width: 500px;
-    margin: 0 auto;
-}
-
-.formfreeLesson {
-    legend {
-        color: $colorFontWhite;
-        font-size: 30px;
-    }
-    label {
-        color: $colorFontWhite;
-        font-size: 25px;
-    }
-
-    input {
-        width: 350px;
-        height: 50px;
-        border: 1px solid $colorFontWhite;
-        border-radius: 30px;
-        background: none;
-        margin: 10px 0 20px 10px;
-    }
-}
-
-.btnSend {
-    margin: 30px;
-    width: 250px;
-    font-size: 20px;
-    height: 50px;
-    border: 1px solid $colorFontWhite;
-    border-radius: 30px;
-    background: none;
-    color: $colorFontWhite;
 }
 
 .footer {
