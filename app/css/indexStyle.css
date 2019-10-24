@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  /* overflow-x: hidden; */ }
-
 @font-face {
   font-family: 'Prata';
   src: url(https://fonts.googleapis.com/css?family=Prata&display=swap); }
@@ -10,6 +5,10 @@ body {
 @font-face {
   font-family: 'Mansalva';
   src: url(https://fonts.googleapis.com/css?family=Mansalva&display=swap); }
+
+body {
+  margin: 0;
+  padding: 0; }
 
 .container {
   display: grid;
@@ -47,16 +46,10 @@ body {
 .englishEn, .germanEn {
   flex: 1;
   background-color: rgba(0, 0, 0, 0.4); }
-
-.englishDe, .germanDe {
-  flex: 1;
-  background-color: rgba(0, 0, 0, 0.4); }
-
-.englishEn p, .germanEn p {
-  text-align: center; }
-
-.englishDe p, .germanDe p {
-  text-align: center; }
+  .englishEn p, .germanEn p {
+    text-align: center; }
+    .englishEn p img, .germanEn p img {
+      max-width: 100px; }
 
 .englishEn a {
   text-decoration: none;
@@ -70,50 +63,26 @@ body {
   font-size: 1.7em;
   cursor: pointer; }
 
-.englishDe a {
-  text-decoration: none;
-  color: darkgray;
-  font-size: 1.7em;
-  cursor: pointer; }
-
-.germanDe a {
-  text-decoration: none;
-  color: white;
-  font-size: 1.7em;
-  cursor: pointer; }
-
-.englishEn img, .germanEn img {
-  max-width: 100px; }
-
-.englishDe img, .germanDe img {
-  max-width: 100px; }
-
 .navigationEnglish {
   list-style: none;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6); }
-
-.navigationList li {
-  display: inline; }
-
-.navigationList a {
-  margin: 0 20px 15px 20px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  font-size: 1.4em;
-  font-family: "Prata", serif;
-  cursor: pointer; }
+  .navigationEnglish .navigationList li {
+    display: inline; }
+  .navigationEnglish .navigationList a {
+    margin: 0 20px 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+    font-family: "Prata", serif;
+    cursor: pointer; }
 
 .visible {
   border-bottom: 6px solid white; }
 
 .hidden {
   border-bottom: none; }
-
-.navigationGerman {
-  display: none;
-  text-align: center; }
 
 .description {
   display: flex; }
@@ -127,7 +96,7 @@ body {
 .headlineRight {
   text-align: right;
   margin-right: 1.5em;
-  font-size: 2em;
+  font-size: 2.5em;
   color: white;
   font-family: "Prata", serif; }
 
@@ -135,13 +104,13 @@ body {
   text-align: left;
   margin-right: 1.5em;
   margin-left: 1.5em;
-  font-size: 2em;
+  font-size: 2.5em;
   color: white;
   font-family: "Prata", serif; }
 
 .textDescription > p {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: "Prata", serif; }
 
 .image img {
@@ -153,14 +122,13 @@ body {
   display: grid;
   grid-template-columns: 50% 50%; }
 
-.listTest > p {
-  margin-left: 1.5em;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 1.2em;
-  font-family: "Prata", serif; }
-
 .listTest {
-  height: 350px; }
+  height: 400px; }
+  .listTest p {
+    margin-left: 1.5em;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.2em;
+    font-family: "Prata", serif; }
 
 .listTest div.listQuestions1 {
   display: block; }
@@ -191,7 +159,8 @@ body {
   display: none; }
 
 .buttonTestContainer {
-  padding-left: 50px; }
+  padding-left: 50px;
+  padding-top: 80px; }
 
 .buttonTest {
   width: 200px;

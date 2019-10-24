@@ -99,7 +99,7 @@ $(function() {
             break;
        }
 
-       let buttonEnroll = $('<a href="#footer"><button class="buttonEnroll">Записаться на бесплатный урок</button></a>');
+       let buttonEnroll = $('<a href="#formfreeLesson"><button class="buttonEnroll">Записаться на бесплатный урок</button></a>');
        $('.answerContainer').append(buttonEnroll);
 
     }

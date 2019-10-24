@@ -1,14 +1,5 @@
 $colorFontWhite: rgb(255, 255, 255);
-$headLineBlueViolet: rgba(138, 43, 226, 0.5);
-$colorInput: rgb(138, 43, 226);
-$colorNavy: rgb(0, 0, 128);
 $fontPrata:  'Prata', serif;
-
-body {
-    margin: 0;
-    padding: 0;
-    /* overflow-x: hidden; */
-}
 
 @font-face {
     font-family: 'Prata';
@@ -18,6 +9,11 @@ body {
 @font-face {
     font-family: 'Mansalva';
     src: url(https://fonts.googleapis.com/css?family=Mansalva&display=swap);
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -61,74 +57,52 @@ body {
 .englishEn, .germanEn {
     flex: 1;
     background-color: rgba(0, 0, 0, 0.4);
+    p {
+        text-align: center;
+        img {
+            max-width: 100px;
+        }
+    }
 }
 
-.englishDe, .germanDe{
-    flex: 1;
-    background-color: rgba(0, 0, 0, 0.4);
+.englishEn {
+    a {
+        text-decoration: none;
+        color: $colorFontWhite;
+        font-size: 1.7em;
+        cursor: pointer;
+    } 
 }
 
-.englishEn p, .germanEn p {
-    text-align: center;
-}
-
-.englishDe p, .germanDe p {
-    text-align: center;
-}
-
-.englishEn a {
-    text-decoration: none;
-    color: $colorFontWhite;
-    font-size: 1.7em;
-    cursor: pointer;
-}
-
-.germanEn a {
+.germanEn  {
+    a {
     text-decoration: none;
     color: rgb(169, 169, 169);
     font-size: 1.7em;
     cursor: pointer;
-}
-
-.englishDe a {
-    text-decoration: none;
-    color: rgb(169, 169, 169);
-    font-size: 1.7em;
-    cursor: pointer;
-}
-
-.germanDe a {
-    text-decoration: none;
-    color: $colorFontWhite;
-    font-size: 1.7em;
-    cursor: pointer;
-}
-
-.englishEn img, .germanEn img {
-    max-width: 100px;
-}
-
-.englishDe img, .germanDe img {
-    max-width: 100px;
+    }   
 }
 
 .navigationEnglish {
     list-style: none;
     text-align: center;  
     background-color: rgba(0, 0, 0, 0.6);
-}
 
-.navigationList li {
-    display: inline;
-}
-.navigationList a {
-    margin: 0 20px 15px 20px;
-    text-align: center;
-    text-decoration: none;
-    color: $colorFontWhite;
-    font-size: 1.4em;
-    font-family: $fontPrata;
-    cursor: pointer;
+    .navigationList  {
+        li {
+            display: inline;
+        }
+
+        a {
+            margin: 0 20px 15px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: $colorFontWhite;
+            font-size: 1.4em;
+            font-family: $fontPrata;
+            cursor: pointer;
+        }  
+    }
 }
 
 .visible {
@@ -137,11 +111,6 @@ body {
 
 .hidden {
     border-bottom: none;
-}
-
-.navigationGerman {
-    display: none;
-    text-align: center;  
 }
 
 .description {
@@ -154,59 +123,66 @@ body {
 .textDescription {
     flex: 2;
 }
+
 .headlineRight {
     text-align: right;
     margin-right: 1.5em;
-    font-size: 2em;
+    font-size: 2.5em;
     color: $colorFontWhite;
     font-family: $fontPrata;
-}
+}   
+
+
 
 .headlineLeft {
     text-align: left;
     margin-right: 1.5em;
     margin-left: 1.5em;
-    font-size: 2em;
+    font-size: 2.5em;
     color: $colorFontWhite;
+    font-family: $fontPrata;
+    } 
+
+
+.textDescription > p {  
+    color: $colorFontWhite;
+    font-size: 1.3em;
     font-family: $fontPrata;
 }
 
-.textDescription > p {
-    color: $colorFontWhite;
-    font-size: 1.5em;
-    font-family: $fontPrata;
-}
-
-.image img {
+.image {
+    img  {
     margin: 30px;
     max-width: 300px;
     border-radius: 100px;
+    }
 }
 
 .grid {
     display: grid;
     grid-template-columns: 50% 50%;
 }
-.listTest> p {
-    margin-left: 1.5em;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 1.2em;
-    font-family: $fontPrata;
-}
-
 .listTest {
-    height: 350px;
+    height: 400px;
+    p {
+        margin-left: 1.5em;
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 1.2em;
+        font-family: $fontPrata;
+    }
 }
 
 .listTest div.listQuestions1 {
    display: block;
 }
 
-.listTest  div {
+.listTest {
+    div {
     display: none;
     color: $colorFontWhite;
     font-size: 1.5em;
     padding: 0 0 0 70px;
+    }
 }
 
 .listTest input[type="radio"] {
@@ -234,6 +210,7 @@ body {
 
 .buttonTestContainer {
    padding-left: 50px;
+   padding-top: 80px;
 }
 .buttonTest {
     width: 200px;
