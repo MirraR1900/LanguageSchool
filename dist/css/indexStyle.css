@@ -96,7 +96,7 @@ body {
 .headlineRight {
   text-align: right;
   margin-right: 1.5em;
-  font-size: 2em;
+  font-size: 2.5em;
   color: white;
   font-family: "Prata", serif; }
 
@@ -104,13 +104,13 @@ body {
   text-align: left;
   margin-right: 1.5em;
   margin-left: 1.5em;
-  font-size: 2em;
+  font-size: 2.5em;
   color: white;
   font-family: "Prata", serif; }
 
-.textP {
+.textDescription > p {
   color: white;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-family: "Prata", serif; }
 
 .image img {
@@ -123,7 +123,7 @@ body {
   grid-template-columns: 50% 50%; }
 
 .listTest {
-  height: 350px; }
+  height: 400px; }
   .listTest p {
     margin-left: 1.5em;
     color: rgba(255, 255, 255, 0.6);
@@ -159,7 +159,8 @@ body {
   display: none; }
 
 .buttonTestContainer {
-  padding-left: 50px; }
+  padding-left: 50px;
+  padding-top: 80px; }
 
 .buttonTest {
   width: 200px;
