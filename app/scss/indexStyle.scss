@@ -356,6 +356,11 @@ body {
         cursor: pointer;
     }
 
+    button:hover {
+        border: 2px solid rgb(0, 0, 128);
+        font-weight: bold;
+    }
+
     .teacher {
         display: none;
      }

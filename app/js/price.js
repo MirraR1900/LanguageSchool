@@ -3,10 +3,15 @@ $(function() {
     $('.costCalculation button').bind('click', function() {
         let target = $(this);
         let elem =  target.attr("id");
+        let parent = $(this).parent().attr('class');
+        console.log(parent);
        switch(elem) {
            case "adults": 
            case "pupils": 
            case "preschoolers": $(".teacher").css('display', 'block');
+                                target.css('border', '2px solid rgb(147, 112, 219)');
+                                borderColor(target, parent);
+                                
            break;
            case "russianSpeaker": 
            case "native":  $(".course").css('display', 'block');
@@ -28,6 +33,8 @@ $(function() {
        }
        
     });
+
+    function borderColor(elemId, elemClass) { };
 
     
 
