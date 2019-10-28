@@ -291,6 +291,9 @@ body {
     color: white;
     font-size: 16px;
     cursor: pointer; }
+  .costCalculation button:hover {
+    border: 2px solid navy;
+    font-weight: bold; }
   .costCalculation .teacher {
     display: none; }
   .costCalculation .course {
