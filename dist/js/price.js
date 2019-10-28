@@ -1,52 +1,47 @@
 $(function() {
-    let parent;
     let target; 
+    let elem;
+    let buttonBorder = {border: '2px solid rgb(255, 255, 255)'};
+    let targetBorder = {border: '3px solid rgb(255, 0, 0)'};
     
     $('.costCalculation button').bind('click', function() {
         target = $(this);
-        let elem =  target.attr("id");
+        elem =  target.attr("id");
        switch(elem) {
            case "adults": 
            case "pupils": 
            case "preschoolers": $(".teacher").css('display', 'block');
-                                parent = $('.age');
-                                borderColor(target, parent);
+                                $('.age button').css(buttonBorder);
+                                target.css(targetBorder);
+                                
                                 
            break;
            case "russianSpeaker": 
            case "native":  $(".course").css('display', 'block');
-                           parent = $('age');
+                           $('.teacher button').css(buttonBorder);
+                           target.css(targetBorder);
            break;
            case "miniGroup": 
            case "bigGroup": 
            case "privatelLessons": 
            case "examPreparation":
            case "internationalExam": $(".intensity").css('display', 'block');
-                                    parent = $('age');
+                                     $('.course button').css(buttonBorder);
+                                     target.css(targetBorder);
            break;
            case "threeHours": 
            case "fourHours": 
            case "sixHours":  $(".days").css('display', 'block');
-                            parent = $('age');
+                             $('.intensity button').css(buttonBorder);
+                             target.css(targetBorder);
            break;
            case "weekdays": 
            case "weekend": 
-           case "weekdaysAndWeekend": alert("All");
-                                    parent = $('age');
+           case "weekdaysAndWeekend": $('.days button').css(buttonBorder);
+                                      target.css(targetBorder);
            break;
        }
        
     });
 
-    function borderColor(elemId, parent) {
-        let array = parent.children();
-        for( let i = 0; i < array.length - 1; i++) {
-            console.log(array[i]);
-            if(array[i] === target) {
-                console.log("h");
-            }
-        }
-       
-        elemId.css('border', '2px solid rgb(147, 112, 219)');
-    };
 });
