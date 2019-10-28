@@ -352,13 +352,14 @@ body {
         margin: 10px;
         padding: 10px 20px 10px 20px;
         color: $colorFontWhite;
-        font-size: 16px;
+        font-size: 18px;
+        font-family: $fontPrata;
         cursor: pointer;
     }
 
     button:hover {
-        border: 2px solid rgb(0, 0, 128);
-        font-weight: bold;
+        color: rgb(176, 224, 230);
+        font-weight: 900;
     }
 
     .teacher {
@@ -385,7 +386,7 @@ body {
 }
 
 .footer {
-    border: 2px solid green;
+    // border: 2px solid green;
     height: 150px;
     
 }

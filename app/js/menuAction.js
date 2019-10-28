@@ -3,9 +3,9 @@ $(function() {
     $('.navigationList li a').mouseover(function(event) {
         let target = $(event.target);
             if(target.is(".navigationList li a")) {
-             let a = $('.navigationList li a');
-                if(a != target) {
-                  a.css({'filter': 'blur(2px)'});
+             let button = $('.navigationList li a');
+                if(button != target) {
+                  button.css({'filter': 'blur(2px)'});
                   target.css('filter', 'none');
                  }
             }
