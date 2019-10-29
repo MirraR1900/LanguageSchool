@@ -11,25 +11,29 @@
 <body>
     <div class="container">
         <div class="headerEn">
-            <div class="info">ул. Ленина 17, проспект Мира 46А <strong>тел: +7(0000)000-000</strong></div>
-            <div class="name">Language School</div>
-            <div class="languages">
-                <div class="englishEn">
-                    <p><img src="../images/EnglandFlagSmall.jpg" alt=""> <a href="../index.html">Английский язык</a></p>
+                <div class="info">ул. Ленина 17, проспект Мира 46А; <strong>тел: +7(0000)000-000</strong>
                 </div>
-                <div class="germanEn">
-                    <p><img src="../images/germanyFlagSmall.png" alt=""><a href="../html/german.html">Немецкий язык</a>
-                    </p>
+                <div class="name">
+                        <p>Language School</p>
                 </div>
-            </div>
-            <div class="navigationEnglish en">
-                <ul class="navigationList" id="#nav">
-                    <li class="hidden adults"><a href="../index.html">Для взрослых</a></li>
-                    <li class="visible pupils"><a href="../html/pupilsEn.html">Для школьников</a></li>
-                    <li class="hidden preschoolers"><a href="../html/preschoolersEn.html">Для дошкольников</a></li>
-                    <li class="hidden exams"><a href="../html/examsEn.html">Подготовка к экзаменам</a></li>
-                </ul>
-            </div>
+                <div class="languages">
+                        <div class="englishEn">
+                                <p><img src="../images/EnglandFlagSmall.jpg" alt=""> <a href="../index.html">
+                                                Английский язык</a></p>
+                        </div>
+                        <div class="germanEn">
+                                <p><img src="../images/germanyFlagSmall.png" alt=""><a href="../html/german.html">
+                                                Немецкий язык</a></p>
+                        </div>
+                </div>
+                <div class="navigationEnglish">
+                        <ul class="navigationList">
+                                <li class="hidden"><a href="../index.html">Для взрослых</a></li>
+                                <li class="visible"><a href="../html/pupilsEn.html">Для школьников</a></li>
+                                <li class="hidden"><a href="../html/preschoolersEn.html">Для дошкольников</a></li>
+                                <li class="hidden"><a href="../html/examsEn.html">Подготовка к экзаменам</a></li>
+                        </ul>
+                </div>
         </div>
         <div class="main" id="content">
             <div class="description pupils">
@@ -346,10 +350,96 @@
                         </form>
                 </div>
         </div>
+        <div class="price">
+                <div class="headlineRight">
+                       <p>Стоимость занятий</p>
+               </div>
+               <div class="costCalculation">
+                       <section>
+                               <p class="headline">Шаг 1. Выберите возраст.</p>
+                               <p class="age">
+                                       <button id="adults">Взрослые</button>
+                                       <button id="pupils">Школьники</button>
+                                       <button id="preschoolers">Дошкольники</button>
+                               </p>
+                       </section>
+                       <section>
+                               <p class="headline">Шаг 2. Выберите преподавателя.</p>
+                               <p class="teacher">
+                                       <button id="russianSpeaker">Русскоязычный</button>
+                                       <button id="native">Носители языка со знанием русского языка</button>
+                               </p>
+                       </section>
+                       <section>
+                       <p class="headline">Шаг 3. Выберите курс.</p>
+                               <p class="course">
+                                       <button id="miniGroup">Занятия в группе от 3 до 5 человек</button><br>
+                                       <button id="bigGroup">Занятия в группе от 5 человек</button><br>
+                                       <button id="privatelLessons">Индивидуальные занятия</button><br>
+                                       <button id="examPreparation">Подготовка к ЕГЭ</button><br>
+                                       <button id="internationalExam">Подготовка к международному экзамену</button>
+                                       </p>
+                       </section>
+                       <section>
+                               <p class="headline">Шаг 4. Выберите интенсивность.</p>
+                               <p class="intensity">
+                                       <button id="threeHours">3 часа в неделю</button>
+                                       <button id="fourHours">4 часа в неделю</button>
+                                       <button id="sixHours">6 часов в неделю</button>
+                               </p>
+                       </section>
+                       <section>
+                               <p class="headline">Шаг 5. Выберите дни недели.</p>
+                                <p class="days">
+                                       <button id="weekdays">Будни</button>
+                                       <button id="weekend">Выходные</button>
+                                       <button id="weekdaysAndWeekend">Будни + выходные</button>
+                               </p>
+                       </section>
+               </div>
+       </div>
+       <div class="schedule">
+               <table id="schedule">
+                       <thead>
+                               <tr>
+                                       <th>Начало занятий</th>
+                                       <th>Стоимость 1 акад. часа</th>
+                                       <th>Стоимость занятий за месяц</th>
+                               </tr>
+                       </thead>
+               </table>
+       </div>
+       <div class="comments">
+               <div class="headlineLeft">
+                       <p>Отзывы наших учеников</p>
+               </div>
+               <div class="showComments"></div>
+               <div class="openCloseCreateComment">
+                       <button id="open">Оставить отзыв</button>
+                       <button id="close">Закрыть</button>
+               </div>
+               <div class="createComment">
+                       <form action="">
+                               <fieldset>
+                                       <legend>Оставьте ваш отзыв о школе</legend>
+                                       <label for="">Имя</label><br>
+                                       <input type="text"> <br>
+                                       <label for="">E-mail</label><br>
+                                       <input type="email"><br>
+                                       <textarea name="" id="" cols="50" rows="10"></textarea>
+                               </fieldset>
+                               <button type="submit">Отправить</button>
+                       </form>
+               </div>
+       </div>
         </div>
     </div>
+    <div class="footer" id="footer"></div>
+    
     <script src="../js/menuAction.js"></script>
     <script src="../js/test.js"></script>
+    <script src="../js/price.js"></script>
+    <script src="../js/comments.js"></script>
 </body>
 
 </html>
