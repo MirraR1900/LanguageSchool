@@ -39,6 +39,7 @@ $(function() {
            case "weekend": 
            case "weekdaysAndWeekend": $('.days button').css(buttonBorder);
                                       target.css(targetBorder);
+                                      $('.schedule').css('display', 'block');
            break;
        }
        

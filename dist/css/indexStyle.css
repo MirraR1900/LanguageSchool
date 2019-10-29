@@ -308,5 +308,21 @@ body {
   color: white;
   font-size: 20px; }
 
+.schedule {
+  display: none;
+  height: 150px; }
+
+#schedule {
+  margin: 0 auto;
+  text-align: center; }
+  #schedule thead {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #00008B; }
+    #schedule thead th {
+      width: 350px;
+      padding: 10px;
+      color: white; }
+
 .footer {
   height: 150px; }

@@ -385,8 +385,29 @@ body {
     font-size: 20px;
 }
 
+.schedule {
+    display: none;
+    height: 150px;
+}
+
+#schedule {
+    margin: 0 auto;
+    text-align: center;
+
+    thead {
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #00008B;
+
+        th {
+            width: 350px;
+            padding: 10px;
+            color:  $colorFontWhite;
+        }
+    }
+}
+
 .footer {
-    // border: 2px solid green;
     height: 150px;
     
 }
