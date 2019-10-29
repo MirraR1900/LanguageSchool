@@ -126,7 +126,7 @@ body {
   height: 400px; }
   .listTest p {
     margin-left: 1.5em;
-    color: rgba(255, 255, 255, 0.6);
+    color: white;
     font-size: 1.2em;
     font-family: "Prata", serif; }
 
@@ -163,24 +163,32 @@ body {
   padding-top: 80px; }
 
 .buttonTest {
-  width: 200px;
+  width: 250px;
   height: 50px;
   border: 2px solid white;
   border-radius: 30px;
   background: none;
   color: white;
-  font-size: 1em;
-  font-family: "Prata", serif; }
+  font-size: 20px;
+  font-family: "Prata", serif;
+  cursor: pointer; }
+
+.buttonTest:hover {
+  font-weight: 900; }
 
 .buttonEnroll {
-  width: 300px;
+  width: 350px;
   height: 50px;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Prata", serif;
   color: white;
-  background-color: mediumpurple;
-  border: 1px solid white;
-  border-radius: 30px; }
+  background: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  cursor: pointer; }
+
+.buttonEnroll:hover {
+  font-weight: 900; }
 
 .reason {
   font-family: "Prata", serif; }
@@ -252,6 +260,8 @@ body {
 .containerForm {
   width: 500px;
   margin: 0 auto; }
+  .containerForm form {
+    text-align: center; }
 
 .formfreeLesson legend {
   color: white;
@@ -262,6 +272,9 @@ body {
   font-size: 25px; }
 
 .formfreeLesson input {
+  color: white;
+  text-align: center;
+  font-size: 20px;
   width: 350px;
   height: 50px;
   border: 1px solid white;
@@ -272,12 +285,17 @@ body {
 .btnSend {
   margin: 30px;
   width: 250px;
-  font-size: 20px;
+  font-size: 25px;
   height: 50px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 30px;
   background: none;
-  color: white; }
+  color: white;
+  font-family: "Prata", serif;
+  cursor: pointer; }
+
+.btnSend:hover {
+  font-weight: 900; }
 
 .costCalculation {
   text-align: center; }
@@ -289,7 +307,7 @@ body {
     margin: 10px;
     padding: 10px 20px 10px 20px;
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Prata", serif;
     cursor: pointer; }
   .costCalculation button:hover {
@@ -306,7 +324,7 @@ body {
 
 .headline {
   color: white;
-  font-size: 20px; }
+  font-size: 25px; }
 
 .schedule {
   display: none;
@@ -323,6 +341,67 @@ body {
       width: 350px;
       padding: 10px;
       color: white; }
+
+.createComment form {
+  width: 750px;
+  margin: 0 auto;
+  text-align: center; }
+  .createComment form fieldset legend {
+    color: white;
+    font-size: 30px; }
+  .createComment form fieldset label {
+    color: white;
+    font-size: 25px; }
+  .createComment form fieldset input {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: none;
+    margin: 10px 0 20px 10px; }
+  .createComment form fieldset textarea {
+    border: 1px solid white;
+    border-radius: 30px;
+    background: none;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px; }
+  .createComment form button {
+    margin: 30px;
+    width: 250px;
+    font-size: 25px;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 30px;
+    background: none;
+    color: white;
+    font-family: "Prata", serif;
+    cursor: pointer; }
+  .createComment form button:hover {
+    font-weight: 900; }
+
+.openCloseCreateComment {
+  text-align: center;
+  padding: 30px; }
+  .openCloseCreateComment #open {
+    color: white;
+    font-size: 25px;
+    font-family: "Prata", serif;
+    border: none;
+    background: none;
+    cursor: pointer; }
+  .openCloseCreateComment #close {
+    display: none;
+    color: white;
+    font-size: 25px;
+    font-family: "Prata", serif;
+    border: none;
+    background: none;
+    cursor: pointer; }
 
 .footer {
   height: 150px; }

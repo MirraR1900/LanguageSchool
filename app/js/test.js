@@ -75,27 +75,27 @@ $(function() {
             case 1:
             case 2:
             case 3:
-            case 4:  $('.answerContainer').append('<p>Ваш уровень знания английского языка: Beginner</p>');
+            case 4:  $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Beginner</p>');
             break;   
             case 5:
             case 6:
             case 7:
             case 8:
             case 9:
-            case 10: $('.answerContainer').append('<p>Ваш уровень знания английского языка: Elementary</p>');
+            case 10: $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Elementary</p>');
             break;
             case 11:
             case 12:
             case 13:
             case 14:
-            case 15:  $('.answerContainer').append('<p>Ваш уровень знания английского языка: Pre-Intermediate</p>');
+            case 15:  $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Pre-Intermediate</p>');
             break;
             case 16:
             case 17:
-            case 18: $('.answerContainer').append('<p>Ваш уровень знания английского языка: Intermediate</p>');
+            case 18: $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Intermediate</p>');
             break;
             case 19:
-            case 20: $('.answerContainer').append('<p>Ваш уровень знания английского языка: Advanced</p>');
+            case 20: $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Advanced</p>');
             break;
        }
 
