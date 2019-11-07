@@ -122,13 +122,11 @@ body {
   display: grid;
   grid-template-columns: 50% 50%; }
 
-.listTest {
-  height: 400px; }
-  .listTest p {
-    margin-left: 1.5em;
-    color: white;
-    font-size: 1.2em;
-    font-family: "Prata", serif; }
+.listTest p {
+  margin-left: 1.5em;
+  color: white;
+  font-size: 1.2em;
+  font-family: "Prata", serif; }
 
 .listTest div.listQuestions1 {
   display: block; }

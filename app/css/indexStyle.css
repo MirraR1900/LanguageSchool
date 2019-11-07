@@ -166,6 +166,7 @@ body {
 .buttonTest {
   width: 250px;
   height: 50px;
+  margin: 0px;
   border: 2px solid white;
   border-radius: 30px;
   background: none;
@@ -180,12 +181,13 @@ body {
 .buttonEnroll {
   width: 350px;
   height: 50px;
-  font-size: 20px;
-  font-family: "Prata", serif;
-  color: white;
-  background: none;
+  margin: 0;
   border: 2px solid white;
   border-radius: 30px;
+  background: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Prata", serif;
   cursor: pointer; }
 
 .buttonEnroll:hover {
@@ -224,6 +226,36 @@ body {
 
 .reasonNumber5 {
   background: url("../images/teacher.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
+
+.Children1 {
+  background: url("../images/technologies.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
+
+.Children2 {
+  background: url("../images/time.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
+
+.Children3 {
+  background: url("../images/onlineChild.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
+
+.Children4 {
+  background: url("../images/children.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  height: 650px; }
+
+.Children5 {
+  background: url("../images/childPractice.jpg");
   background-size: cover;
   background-attachment: fixed;
   height: 650px; }
@@ -276,14 +308,14 @@ body {
   margin: 10px 0 20px 10px; }
 
 .btnSend {
-  margin: 30px;
   width: 250px;
-  font-size: 25px;
   height: 50px;
+  margin: 30px;
   border: 2px solid white;
   border-radius: 30px;
   background: none;
   color: white;
+  font-size: 20px;
   font-family: "Prata", serif;
   cursor: pointer; }
 
@@ -397,14 +429,14 @@ body {
       padding: 20px;
       font-size: 20px; }
     .createComment form button {
-      margin: 30px;
       width: 250px;
-      font-size: 25px;
       height: 50px;
+      margin: 30px;
       border: 2px solid white;
       border-radius: 30px;
       background: none;
       color: white;
+      font-size: 20px;
       font-family: "Prata", serif;
       cursor: pointer; }
     .createComment form button:hover {

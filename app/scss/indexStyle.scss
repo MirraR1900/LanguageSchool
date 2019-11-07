@@ -38,7 +38,7 @@ body {
     cursor: pointer;
 }
 
-@mixin buttonsAction($width: 250px, $margin) {
+@mixin buttonsAction($width, $margin) {
     width: $width;
     height: 50px;
     margin: $margin;
@@ -49,12 +49,6 @@ body {
     font-size: 20px;
     font-family: $fontPrata;
     cursor: pointer;
-}
-
-@mixin reasonNumber {
-    background-size: cover;
-    background-attachment: fixed;
-    height: $reasonHeight;
 }
 
 @mixin inputForm {
@@ -255,7 +249,7 @@ body {
    padding-top: 80px;
 }
 .buttonTest {
-    @include buttonsAction(0);
+    @include buttonsAction(250px, 0px);
 }
 
 .buttonTest:hover {
@@ -280,24 +274,66 @@ body {
 }
 
 .reasonNumber1 {
-    @include reasonNumber;
     background: url("../images/lecture.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
 }
 .reasonNumber2 {
-    @include reasonNumber;
     background: url("../images/time.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
 }
 .reasonNumber3 {
-    @include reasonNumber;
     background: url("../images/online.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
 }
 .reasonNumber4 {
-    @include reasonNumber;
     background: url("../images/group.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
 }
 .reasonNumber5 {
-    @include reasonNumber;
     background: url("../images/teacher.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
+
+
+.Children1 {
+    background: url("../images/technologies.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
+.Children2 {
+    background: url("../images/time.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
+.Children3 {
+    background: url("../images/onlineChild.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
+.Children4 {
+    background: url("../images/children.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
+.Children5 {
+    background: url("../images/childPractice.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
 }
 
 .reasonNumber h2 {
@@ -348,7 +384,7 @@ body {
 }
 
 .btnSend {
-    @include buttonsAction(30px);
+    @include buttonsAction(250px, 30px);
 }
 
 .btnSend:hover {
@@ -471,7 +507,7 @@ body {
         }
         
         button {
-            @include buttonsAction(30px);
+            @include buttonsAction(250px, 30px);
         }
 
         button:hover {
