@@ -15,7 +15,7 @@ body {
   grid-template-columns: 1fr;
   max-width: 1280px;
   margin: 0 auto;
-  background: #D2B48C; }
+  background: tan; }
 
 .headerDe {
   background: url(../images/brandenburgGate.jpg) no-repeat;
