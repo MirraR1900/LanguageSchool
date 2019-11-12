@@ -440,4 +440,20 @@ body {
 
 .footer {
   height: 250px;
-  background: #191970; }
+  background: #191970;
+  display: grid;
+  grid-template-columns: 70% 30%; }
+  .footer div {
+    text-align: center;
+    margin-top: 20px; }
+  .footer p {
+    color: white;
+    font-size: 18px;
+    font-family: "Prata", serif; }
+    .footer p a {
+      color: white;
+      text-decoration: none;
+      margin: 25px; }
+  .footer .pName {
+    font-family: 'Mansalva', cursive;
+    font-size: 20px; }

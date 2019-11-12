@@ -516,4 +516,28 @@ body {
 .footer {
     height: 250px; 
     background: #191970;
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    div {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    p {
+        color:  $colorFontWhite;
+        font-size: 18px;
+        font-family: $fontPrata;
+        
+        a {
+            color:  $colorFontWhite;
+            text-decoration: none;
+            margin: 25px;
+        }
+    }
+
+    .pName {
+        font-family: 'Mansalva', cursive;
+        font-size: 20px;
+    }
 }

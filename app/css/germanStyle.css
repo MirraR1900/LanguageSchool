@@ -122,11 +122,13 @@ body {
   display: grid;
   grid-template-columns: 50% 50%; }
 
-.listTest p {
-  margin-left: 1.5em;
-  color: white;
-  font-size: 1.2em;
-  font-family: "Prata", serif; }
+.listTest {
+  height: 400px; }
+  .listTest p {
+    margin-left: 1.5em;
+    color: white;
+    font-size: 1.2em;
+    font-family: "Prata", serif; }
 
 .listTest div.listQuestions1 {
   display: block; }
@@ -415,6 +417,22 @@ body {
     .createComment form button:hover {
       font-weight: 900; }
 
-.footer {
+.footerGe {
   height: 250px;
-  background: #191970; }
+  background: #977542;
+  display: grid;
+  grid-template-columns: 70% 30%; }
+  .footerGe div {
+    text-align: center;
+    margin-top: 20px; }
+  .footerGe p {
+    color: white;
+    font-size: 18px;
+    font-family: "Prata", serif; }
+    .footerGe p a {
+      color: white;
+      text-decoration: none;
+      margin: 25px; }
+  .footerGe .pName {
+    font-family: 'Mansalva', cursive;
+    font-size: 20px; }
