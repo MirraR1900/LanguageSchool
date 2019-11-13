@@ -420,6 +420,7 @@ body {
       background: none;
       margin: 10px 0 20px 10px; }
     .createComment form fieldset textarea {
+      width: 650px;
       border: 1px solid white;
       border-radius: 30px;
       background: none;

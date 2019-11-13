@@ -23,6 +23,9 @@
         background: url(../images/londonBridgemob900.jpg) no-repeat; 
         background-size: 100% 100%; 
     }
+    .info {
+        font-size: 1.5em;
+    }
     .name {
         font-size: 4em;
     }
@@ -35,11 +38,9 @@
     .languages {
         display: block;
     }
-
     .englishEn, .germanEn {
         background-color: transparent;
     }
-
     .navigationEnglish {  
         background-color: transparent;
     .navigationList  {
@@ -54,10 +55,119 @@
         }  
         }
     }
-  
-    .navMobile {
-        display: block;
+    .textDescription > p{
+            margin-right: 10px;
     }
   
+}
+@media only screen and (max-width: 800px) {
+    .headerEn {
+        background: url(../images/london1.jpg) no-repeat; 
+        background-size: 100% 100%; 
+    }
+
+    .name {
+        font-size: 3em;
+    }
+    .englishEn, .germanEn {
+        p {
+            img {
+                max-width: 70px;
+            }
+        }
+    }
+    .englishEn {
+        a {
+            font-size: 1.4em;
+        } 
+    }
+    .germanEn  {
+        a {
+        font-size: 1.4em;
+        }   
+    }
+    .image {
+        img  {
+        margin: 30px;
+        max-width: 200px;
+        border-radius: 80px;
+        }
+    }
+    .createComment {
+        display: none;
+        form {
+            width: 650px;
+    
+            fieldset {
+                legend {
+                    font-size: 25px;
+                }
+                label {
+                    font-size: 25px;
+                }
+                textarea {
+                    width: 450px;
+                    height: 150px;
+                }
+            }    
+        }
+    }
+
+}
+@media only screen and (max-width: 600px) {
+    .headlineRight {
+        font-size: 1.7em;
+    }   
+    .headlineLeft {
+        font-size: 1.7em;
+    } 
+    .image {
+        display: none;
+    }
+    .textDescription > p {
+           text-align: left;
+           margin: 0 10px 0 10px;
+    }
+    .listTest {
+        height: 300px;
+        p {
+            font-size: 1.2em;
+        }
+    }
+    .listTest {
+        div {
+        padding: 0 30px 50px 0;
+    
+        }
+    }
+    .formfreeLesson {
+        legend {
+            font-size: 23px;
+        }
+        label {
+            font-size: 23px;
+        }
+    }
+    .headline {
+        font-size: 20px;
+    }
+    .createComment {
+        display: none;
+        form {
+            width: 450px;
+            fieldset {
+                legend {
+                    font-size: 23px;
+                }
+                label {
+                    font-size: 20px;
+                }
+                textarea {
+                    width: 300px;
+                    height: 100px;
+                }
+            }    
+        }
+    }
 }
 
