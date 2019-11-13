@@ -1,0 +1,1 @@
+console.log("Ширина окна браузера: " + innerWidth);

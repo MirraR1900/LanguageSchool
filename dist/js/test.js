@@ -4,6 +4,7 @@ $(function() {
     let answer = [];
     let counter = 0;
     let x = 0;
+    let width;
 
     let radioArray;
     let r1 = $('.listTest div input[name="r1"]');
@@ -75,33 +76,40 @@ $(function() {
             case 1:
             case 2:
             case 3:
-            case 4:  $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Beginner</p>');
+            case 4:  displayWidth(); $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Beginner</p>');
             break;   
             case 5:
             case 6:
             case 7:
             case 8:
             case 9:
-            case 10: $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Elementary</p>');
+            case 10: displayWidth(); $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Elementary</p>');
             break;
             case 11:
             case 12:
             case 13:
             case 14:
-            case 15:  $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Pre-Intermediate</p>');
+            case 15:  displayWidth(); $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Pre-Intermediate</p>');
             break;
             case 16:
             case 17:
-            case 18: $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Intermediate</p>');
+            case 18: displayWidth(); $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Intermediate</p>');
             break;
             case 19:
-            case 20: $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Advanced</p>');
+            case 20: displayWidth(); $('.answerContainer').append('<p>Ваш уровень знания английского языка: <br>Advanced</p>');
             break;
        }
 
        let buttonEnroll = $('<a href="#formfreeLesson"><button class="buttonEnroll">Записаться на бесплатный урок</button></a>');
        $('.answerContainer').append(buttonEnroll);
 
+    }
+
+    function displayWidth() {
+        width = innerWidth;
+        if(width < 1000) {
+            $('.listTest').css('display', 'none');
+        }
     }
         
 });

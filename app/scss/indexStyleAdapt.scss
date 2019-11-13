@@ -1,0 +1,63 @@
+@media only screen and (max-width: 1100px) {
+    .headerEn {
+        background: url(../images/londonBridgemob900.jpg) no-repeat; 
+        background-size: 100% 100%; 
+    }
+    .name {
+        font-size: 4em;
+    }
+    .headlineRight {
+        font-size: 2em;
+    }   
+    .headlineLeft {
+        font-size: 2em;
+    } 
+    .listTest {
+        div {
+        font-size: 1.2em;
+        }
+    }
+}
+@media only screen and (max-width: 930px) {
+    .headerEn {
+        background: url(../images/londonBridgemob900.jpg) no-repeat; 
+        background-size: 100% 100%; 
+    }
+    .name {
+        font-size: 4em;
+    }
+    .headerContainer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        background-color: rgba(0, 0, 0, 0.4);
+
+    }
+    .languages {
+        display: block;
+    }
+
+    .englishEn, .germanEn {
+        background-color: transparent;
+    }
+
+    .navigationEnglish {  
+        background-color: transparent;
+    .navigationList  {
+        
+        li {
+            display: block;
+            width: 250px;
+            margin-bottom: 10px;
+        } 
+        a {
+            font-size: 1.3em;
+        }  
+        }
+    }
+  
+    .navMobile {
+        display: block;
+    }
+  
+}
+

@@ -155,6 +155,10 @@ body {
     border-bottom: none;
 }
 
+.navMobile {
+    display: none;
+}
+
 .description {
     display: flex;
 }
@@ -191,7 +195,7 @@ body {
 
 .grid {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: auto auto;
 }
 .listTest {
     height: 400px;
@@ -212,7 +216,8 @@ body {
     display: none;
     color: $colorFontWhite;
     font-size: 1.5em;
-    padding: 0 0 0 70px;
+    padding: 0 30px 100px 70px;
+
     }
 }
 
@@ -298,7 +303,6 @@ body {
     background-attachment: fixed;
     height: $reasonHeight;
 }
-
 
 .Children1 {
     background: url("../images/technologies.jpg");
@@ -389,7 +393,6 @@ body {
 .costCalculation {
     text-align: center;
     
-
     button {
         border: 2px solid $colorFontWhite;
         border-radius: 30px;
@@ -541,3 +544,4 @@ body {
         font-size: 20px;
     }
 }
+
