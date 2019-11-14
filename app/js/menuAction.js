@@ -14,6 +14,10 @@ $(function() {
     $('.navigationList li a').mouseout(function() {
         $('.navigationList li a').css('filter', 'none');
     });
+
+    $('.navMobile').click(function() {
+        $('.menuMobile').animate({width:'toggle'}, 450);
+    });
     
 });
 

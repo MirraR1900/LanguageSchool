@@ -83,6 +83,9 @@ body {
 .navMobile {
   display: none; }
 
+.menuMobile {
+  display: none; }
+
 .description {
   display: flex; }
 

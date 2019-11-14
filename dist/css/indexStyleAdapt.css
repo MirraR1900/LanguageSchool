@@ -4,6 +4,12 @@
     background-size: 100% 100%; }
   .name {
     font-size: 4em; }
+  .navigationEnglish .navigationList li {
+    display: inline; }
+  .navigationEnglish .navigationList a {
+    margin: 0 20px 15px 20px;
+    font-size: 1.3em;
+    cursor: pointer; }
   .headlineRight {
     font-size: 2em; }
   .headlineLeft {
@@ -11,7 +17,7 @@
   .listTest div {
     font-size: 1.2em; } }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 900px) {
   .headerEn {
     background: url(../images/londonBridgemob900.jpg) no-repeat;
     background-size: 100% 100%; }
@@ -66,7 +72,7 @@
         width: 450px;
         height: 150px; } }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .headlineRight {
     font-size: 1.7em; }
   .headlineLeft {
@@ -99,3 +105,44 @@
       .createComment form fieldset textarea {
         width: 300px;
         height: 100px; } }
+
+@media only screen and (max-width: 600px) {
+  .main {
+    overflow-x: hidden; }
+  .info {
+    font-size: 1.3em; }
+  .name {
+    font-size: 3em; }
+  .headerEn {
+    background: url(../images/london2.jpg) no-repeat; }
+  .headerContainer {
+    display: none; }
+  .navMobile {
+    display: block;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    font-size: 25px;
+    margin: 0 0 0 20px; }
+  .menuMobile {
+    position: absolute;
+    background: rgba(128, 128, 128, 0.9);
+    border-radius: 0 20px 20px 0;
+    width: 350px;
+    height: 350px; }
+    .menuMobile ul {
+      z-index: 1000;
+      list-style: none;
+      text-align: center; }
+    .menuMobile .navigationListMobile li {
+      text-align: left;
+      margin: 20px 0 15px 0;
+      border: none; }
+    .menuMobile .navigationListMobile a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.4em; }
+      .menuMobile .navigationListMobile a img {
+        max-width: 30px; } }
