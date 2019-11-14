@@ -1,3 +1,8 @@
+@mixin buttonsAction($width, $margin) {
+    width: $width;
+    margin: $margin;
+    font-size: 18px;
+}
 @media only screen and (max-width: 1100px) {
     .headerEn {
         background: url(../images/londonBridgemob900.jpg) no-repeat; 
@@ -127,6 +132,9 @@
 
 }
 @media only screen and (max-width: 700px) {
+    .info {
+        font-size: 1.3em;
+    }
     .headlineRight {
         font-size: 1.7em;
     }   
@@ -183,13 +191,14 @@
     }
 }
 @media only screen and (max-width: 600px) {
+    .info {
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
     .main {
         overflow-x: hidden;
     }
-    .info {
-        font-size: 1.3em;
-    }
-
     .name {
         font-size: 3em;
     }
@@ -239,7 +248,118 @@
 
     }
 
+    .containerForm {
+        width: 350px;
+    }
+    .formfreeLesson {
+        legend {
+            font-size: 20px;
+        }
+        label {
+            font-size: 18px;
+        }
+    }
+
+    .costCalculation {       
+        button {
+            height: 50px;
+            margin: 10px;
+            padding: 10px 20px 10px 20px;
+            font-size: 18px;
+        }    
+    }
+
+    #schedule {    
+        thead {
+            font-size: 16px;
+        }
+    }
+
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .name {
+        font-size: 2em;
+    }
+    .container {
+        overflow-x: hidden;
+    }
+
+    .listTest {
+        height: 300px;
+        p {
+            font-size: 1em;
+        }
+    }
+    .headlineRight {
+        font-size: 1.4em;
+    }   
+    .headlineLeft {
+        font-size: 1.4em;
+    }
+    .textDescription > p {
+        font-size: 1.2em;
+    }
+    .buttonTest {
+        @include buttonsAction(200px, 0px);
+    }
+
+    .formfreeLesson {
+        legend {
+            font-size: 20px;
+        }
+        label {
+            font-size: 18px;
+        }
+        input {
+            font-size: 18px;
+            width: 250px;
+        }
+    }
+    .btnSend {
+        @include buttonsAction(200px, 30px);
+    }
+    .costCalculation {       
+        button {
+            margin: 10px;
+            padding: 0 10px 0 10px;
+            font-size: 18px;
+        }    
+    }
+
+    .openCloseCreateComment {    
+        #open {
+            width: 150px;
+            font-size: 18px;
+        }
+    }
+   
+    .createComment {
+        form {
+            width: 300px;    
+            fieldset {
+                legend {
+                    font-size: 20px;
+                }
+                label {
+                    font-size: 18px;
+                }
+                input {
+                    font-size: 18px;
+                    width: 250px;
+                }
+                textarea {
+                    width: 250px;
+                    height: 100px;
+                    font-size: 18px;
+                }
+            }
+            
+            button {
+                @include buttonsAction(200px, 30px);
+            }
+        }
+    }
+
+}
 

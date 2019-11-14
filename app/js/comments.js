@@ -1,17 +1,22 @@
 $(function() {
     let open = $('#open');
-    let close = $('#close');
+    let flagOpenClose = true;
+//     let close = $('#close');
     let createComment = $('.createComment');
 
+
     open.click (function() {
-            createComment.css('display', 'block');
-            open.css('display', 'none');
-            close.css('display', 'block');
+        createComment.toggle();
+        change()
     });
 
-    close.click(function() {
-            createComment.css('display', 'none');
-            open.css('display', 'block');
-            close.css('display', 'none');
-    });
+    function change() {
+            if(flagOpenClose === true) {
+                open.text("Закрыть");
+                flagOpenClose = false;
+            } else {
+                open.text("Оставить отзыв");
+                flagOpenClose = true;
+            }
+    }
 });

@@ -461,17 +461,10 @@ body {
     border: 2px solid black;
 }
 .openCloseCreateComment {
-    margin: 0 auto;
     text-align: center;
     padding: 30px;
-    width: 250px;
-
     #open {
         @include buttonOpenClose;
-    }
-    #close {
-        @include buttonOpenClose;
-        display: none; 
     }
 }
 .createComment {
