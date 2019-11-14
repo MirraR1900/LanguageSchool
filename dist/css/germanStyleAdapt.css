@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1100px) {
+  .headerDe {
+    background: url(../images/londonBridgemob900.jpg) no-repeat;
+    background-size: 100% 100%; }
+  .name {
+    font-size: 4em; }
+  .navigationGermany .navigationList li {
+    display: inline; }
+  .navigationGermany .navigationList a {
+    margin: 0 20px 15px 20px;
+    font-size: 1.3em;
+    cursor: pointer; }
+  .headlineRight {
+    font-size: 2em; }
+  .headlineLeft {
+    font-size: 2em; }
+  .listTest div {
+    font-size: 1.2em; } }
+
+@media only screen and (max-width: 900px) {
+  .headerDe {
+    background: url(../images/londonBridgemob900.jpg) no-repeat;
+    background-size: 100% 100%; }
+  .info {
+    font-size: 1.5em; }
+  .name {
+    font-size: 4em; }
+  .headerContainer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: rgba(0, 0, 0, 0.4); }
+  .languages {
+    display: block; }
+  .englishDe, .germanDe {
+    background-color: transparent; }
+  .navigationGermany {
+    background-color: transparent; }
+    .navigationGermany .navigationList li {
+      display: block;
+      width: 250px;
+      margin-bottom: 10px; }
+    .navigationGermany .navigationList a {
+      font-size: 1.3em; }
+  .textDescription > p {
+    margin-right: 10px; } }
+
+@media only screen and (max-width: 800px) {
+  .headerDe {
+    background: url(../images/london1.jpg) no-repeat;
+    background-size: 100% 100%; }
+  .name {
+    font-size: 3em; }
+  .englishDe p img, .germanDe p img {
+    max-width: 70px; }
+  .englishDe a {
+    font-size: 1.4em; }
+  .germanDe a {
+    font-size: 1.4em; }
+  .image img {
+    margin: 30px;
+    max-width: 200px;
+    border-radius: 80px; }
+  .createComment {
+    display: none; }
+    .createComment form {
+      width: 650px; }
+      .createComment form fieldset legend {
+        font-size: 25px; }
+      .createComment form fieldset label {
+        font-size: 25px; }
+      .createComment form fieldset textarea {
+        width: 450px;
+        height: 150px; } }
+
+@media only screen and (max-width: 700px) {
+  .headlineRight {
+    font-size: 1.7em; }
+  .headlineLeft {
+    font-size: 1.7em; }
+  .image {
+    display: none; }
+  .textDescription > p {
+    text-align: left;
+    margin: 0 10px 0 10px; }
+  .listTest {
+    height: 300px; }
+    .listTest p {
+      font-size: 1.2em; }
+  .listTest div {
+    padding: 0 30px 50px 0; }
+  .formfreeLesson legend {
+    font-size: 23px; }
+  .formfreeLesson label {
+    font-size: 23px; }
+  .headline {
+    font-size: 20px; }
+  .createComment {
+    display: none; }
+    .createComment form {
+      width: 450px; }
+      .createComment form fieldset legend {
+        font-size: 23px; }
+      .createComment form fieldset label {
+        font-size: 20px; }
+      .createComment form fieldset textarea {
+        width: 300px;
+        height: 100px; } }
+
+@media only screen and (max-width: 600px) {
+  .main {
+    overflow-x: hidden; }
+  .info {
+    font-size: 1.3em; }
+  .name {
+    font-size: 3em; }
+  .headerDe {
+    background: url(../images/london2.jpg) no-repeat; }
+  .headerContainer {
+    display: none; }
+  .navMobile {
+    display: block;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    background: none;
+    color: white;
+    font-size: 25px;
+    margin: 0 0 0 20px; }
+  .menuMobile {
+    position: absolute;
+    background: rgba(128, 128, 128, 0.9);
+    border-radius: 0 20px 20px 0;
+    width: 350px;
+    height: 350px; }
+    .menuMobile ul {
+      z-index: 1000;
+      list-style: none;
+      text-align: center; }
+    .menuMobile .navigationListMobile li {
+      text-align: left;
+      margin: 20px 0 15px 0;
+      border: none; }
+    .menuMobile .navigationListMobile a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.4em; }
+      .menuMobile .navigationListMobile a img {
+        max-width: 30px; } }

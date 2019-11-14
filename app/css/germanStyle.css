@@ -84,6 +84,12 @@ body {
 .hidden {
   border-bottom: none; }
 
+.navMobile {
+  display: none; }
+
+.menuMobile {
+  display: none; }
+
 .description {
   display: flex; }
 

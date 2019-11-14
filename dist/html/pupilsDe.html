@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Для школьников</title>
     <link rel="stylesheet" href="../css/germanStyle.css">
+    <link rel="stylesheet" href="../css/germanStyleAdapt.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 </head>
 
@@ -13,22 +14,35 @@
         <div class="headerDe" id="courses">
                 <div class="info">ул. Ленина 17, проспект Мира 46А <strong>тел: +7(0000)000-000</strong></div>
                 <div class="name"><p>Language School</p></div>
-                <div class="languages">
-                    <div class="englishDe">
-                        <p><img src="../images/EnglandFlagSmall.jpg" alt=""> <a href="../index.html">Английский язык</a></p>
-                    </div>
-                    <div class="germanDe">
-                        <p><img src="../images/germanyFlagSmall.png" alt=""><a href="../html/german.html">Немецкий язык</a>
-                        </p>
-                    </div>
+                <div class="headerContainer">
+                        <div class="languages">
+                                <div class="englishDe">
+                                    <p><img src="../images/EnglandFlagSmall.jpg" alt=""> <a href="../index.html">Английский язык</a></p>
+                                </div>
+                                <div class="germanDe">
+                                    <p><img src="../images/germanyFlagSmall.png" alt=""><a href="../html/german.html">Немецкий язык</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="navigationGermany">
+                                <ul class="navigationList">
+                                    <li class="hidden"><a href="../html/german.html">Для взрослых</a></li>
+                                    <li class="visible"><a href="../html/pupilsDe.html">Для школьников</a></li>
+                                    <li class="hidden"><a href="../html/preschoolersDe.html">Для дошкольников</a></li>
+                                    <li class="hidden"><a href="../html/examsDe.html">Подготовка к экзаменам</a></li>
+                                </ul>
+                            </div>
                 </div>
-                <div class="navigationGermany">
-                    <ul class="navigationList">
-                        <li class="hidden"><a href="../html/german.html">Для взрослых</a></li>
-                        <li class="visible"><a href="../html/pupilsDe.html">Для школьников</a></li>
-                        <li class="hidden"><a href="../html/preschoolersDe.html">Для дошкольников</a></li>
-                        <li class="hidden"><a href="../html/examsDe.html">Подготовка к экзаменам</a></li>
-                    </ul>
+                <button class="navMobile">Меню</button>
+                <div class="menuMobile">
+                        <ul class="navigationListMobile">
+                                <li><a href="../index.html"><img src="../images/EnglandFlagSmall.jpg" alt=""> Английский язык</a></li>
+                                <li><a href="../html/german.html"><img src="../images/germanyFlagSmall.png" alt=""> Немецкий язык</a></li>
+                                <li class="hidden"><a href="../html/german.html">Для взрослых</a></li>
+                                <li class="visible"><a href="../html/pupilsDe.html">Для школьников</a></li>
+                                <li class="hidden"><a href="../html/preschoolersDe.html">Для дошкольников</a></li>
+                                <li class="hidden"><a href="../html/examsDe.html">Подготовка к экзаменам</a></li>
+                        </ul>
                 </div>
             </div>
         <div class="main" id="content">
