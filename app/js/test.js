@@ -29,7 +29,9 @@ $(function() {
     let r20 = $('.listTest div input[name="r20"]');
 
 
-
+   /* The function looks through an array of test questions, 
+    displays new ones and hides previous ones. Hides the “Next Question” 
+    button if this was the last test question */
     $('.buttonTest').click(function(){    
         radioArray = [r1, r2, r3, r4, r5, r6, r7, r8, r9, r10, r11, r12, r13, r14, r15, r16, r17, r18, r19, r20];
         let radoiButton;    
@@ -56,6 +58,7 @@ $(function() {
 
     });
 
+    // The function counts all the correct answers.
     function checkAnswers() {
         for(let i =0; i < answer.length; i++) {
             if(answer[i].value == "true") {
@@ -63,9 +66,9 @@ $(function() {
             }  
         }
         showResult();
-        console.log("true: " + counter);
     }
 
+    // The function creates a block with the output of the test result and the offer button "Free lesson"
     function showResult() {
         $('.answerContainer').show();
        let pCounter = $('.answerContainer').append('<p>Правильных ответов: ' + counter + '/' + radioArray.length + '</p>');
@@ -105,6 +108,7 @@ $(function() {
 
     }
 
+    // The function hides the block with questions if the browser window size is less than 1000px
     function displayWidth() {
         width = innerWidth;
         if(width < 1000) {

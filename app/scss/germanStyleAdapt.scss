@@ -1,3 +1,4 @@
+$colorFontWhite: rgb(255, 255, 255);
 @mixin buttonsAction($width, $margin) {
     width: $width;
     margin: $margin;
@@ -193,7 +194,7 @@
 @media only screen and (max-width: 600px) {
     .info {
         font-size: 1.2em;
-        color: rgb(255, 255, 255);
+        color: $colorFontWhite;
         text-align: center;
     }
     .main {
@@ -216,7 +217,7 @@
         height: 50px;
         border-radius: 10px;
         background: none;
-        color: white;
+        color: $colorFontWhite;
         font-size: 25px;
         margin: 0 0 0 20px;
     }
@@ -238,7 +239,7 @@
             border: none;
         }
         a {
-            color: rgb(255, 255, 255);
+            color: $colorFontWhite;
             text-decoration: none;
             font-size: 1.4em;
             img {

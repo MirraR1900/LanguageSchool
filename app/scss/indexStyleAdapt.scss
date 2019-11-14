@@ -1,3 +1,4 @@
+$colorFontWhite: rgb(255, 255, 255);
 @mixin buttonsAction($width, $margin) {
     width: $width;
     margin: $margin;
@@ -30,10 +31,6 @@
         div {
         font-size: 1.2em; } } }
 @media only screen and (max-width: 900px) {
-    // .headerEn {
-    //     background: url(../images/londonBridgemob900.jpg) no-repeat; 
-    //     background-size: 100% 100%; 
-    // }
     .info {
         font-size: 1.5em;
     }
@@ -180,7 +177,7 @@
 @media only screen and (max-width: 600px) {
     .info {
         font-size: 1.2em;
-        color: rgb(255, 255, 255);
+        color: $colorFontWhite;
         text-align: center;
     }
     .main {
@@ -201,7 +198,7 @@
         height: 50px;
         border-radius: 10px;
         background: none;
-        color: white;
+        color: $colorFontWhite;
         font-size: 25px;
         margin: 0 0 0 20px;
     }
@@ -223,7 +220,7 @@
             border: none;
         }
         a {
-            color: white;
+            color: $colorFontWhite;
             text-decoration: none;
             font-size: 1.4em;
             img {
@@ -332,7 +329,6 @@
             }
         }
     }
-
 }
 @media only screen and (max-width: 380px){
     .test {

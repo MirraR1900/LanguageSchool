@@ -1,4 +1,7 @@
 $(function() {
+
+    //The function is responsible for displaying the form "Cost of courses"
+
     let target; 
     let elem;
     let buttonBorder = {border: '2px solid rgb(255, 255, 255)'};
