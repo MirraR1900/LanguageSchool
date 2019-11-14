@@ -18,9 +18,6 @@
     font-size: 1.2em; } }
 
 @media only screen and (max-width: 900px) {
-  .headerEn {
-    background: url(../images/londonBridgemob900.jpg) no-repeat;
-    background-size: 100% 100%; }
   .info {
     font-size: 1.5em; }
   .name {
@@ -218,3 +215,34 @@
       width: 200px;
       margin: 30px;
       font-size: 18px; } }
+
+@media only screen and (max-width: 380px) {
+  .test {
+    display: none; }
+  .formfreeLesson {
+    display: none; }
+  .price {
+    display: none; }
+  .openCloseCreateComment {
+    display: none; }
+  .footer {
+    height: 200px; }
+    .footer div {
+      margin-top: 10px; }
+    .footer p {
+      font-size: 14px; }
+      .footer p a {
+        margin: 10px; }
+    .footer .pName {
+      font-size: 18px; } }
+
+@media only screen and (max-width: 320px) {
+  .headlineRight {
+    font-size: 1.3em;
+    text-align: center; }
+  .headlineLeft {
+    font-size: 1.3em;
+    text-align: center; }
+  .textDescription > p {
+    font-size: 18px;
+    text-align: center; } }

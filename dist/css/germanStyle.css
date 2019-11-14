@@ -367,17 +367,6 @@ body {
     border-radius: 30px;
     background: none;
     cursor: pointer; }
-  .openCloseCreateComment #close {
-    display: none;
-    width: 250px;
-    padding: 10px;
-    color: white;
-    font-size: 25px;
-    font-family: "Prata", serif;
-    border: 2px solid white;
-    border-radius: 30px;
-    background: none;
-    cursor: pointer; }
 
 .createComment {
   display: none; }
@@ -423,22 +412,22 @@ body {
     .createComment form button:hover {
       font-weight: 900; }
 
-.footerGe {
+.footerDe {
   height: 250px;
   background: #977542;
   display: grid;
   grid-template-columns: 70% 30%; }
-  .footerGe div {
+  .footerDe div {
     text-align: center;
     margin-top: 20px; }
-  .footerGe p {
+  .footerDe p {
     color: white;
     font-size: 18px;
     font-family: "Prata", serif; }
-    .footerGe p a {
+    .footerDe p a {
       color: white;
       text-decoration: none;
       margin: 25px; }
-  .footerGe .pName {
+  .footerDe .pName {
     font-family: 'Mansalva', cursive;
     font-size: 20px; }

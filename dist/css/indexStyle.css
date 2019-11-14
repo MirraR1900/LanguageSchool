@@ -374,10 +374,8 @@ body {
   border: 2px solid black; }
 
 .openCloseCreateComment {
-  margin: 0 auto;
   text-align: center;
-  padding: 30px;
-  width: 250px; }
+  padding: 30px; }
   .openCloseCreateComment #open {
     width: 250px;
     padding: 10px;
@@ -388,17 +386,6 @@ body {
     border-radius: 30px;
     background: none;
     cursor: pointer; }
-  .openCloseCreateComment #close {
-    width: 250px;
-    padding: 10px;
-    color: white;
-    font-size: 25px;
-    font-family: "Prata", serif;
-    border: 2px solid white;
-    border-radius: 30px;
-    background: none;
-    cursor: pointer;
-    display: none; }
 
 .createComment {
   display: none; }

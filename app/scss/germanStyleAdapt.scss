@@ -1,6 +1,11 @@
+@mixin buttonsAction($width, $margin) {
+    width: $width;
+    margin: $margin;
+    font-size: 18px;
+}
 @media only screen and (max-width: 1100px) {
     .headerDe {
-        background: url(../images/londonBridgemob900.jpg) no-repeat; 
+        background: url(../images/brandenburgGate1.jpg) no-repeat; 
         background-size: 100% 100%; 
     }
     .name {
@@ -33,7 +38,7 @@
 }
 @media only screen and (max-width: 900px) {
     .headerDe {
-        background: url(../images/londonBridgemob900.jpg) no-repeat; 
+        background: url(../images/brandenburgGate2.jpg) no-repeat; 
         background-size: 100% 100%; 
     }
     .info {
@@ -75,7 +80,7 @@
 }
 @media only screen and (max-width: 800px) {
     .headerDe {
-        background: url(../images/london1.jpg) no-repeat; 
+        background: url(../images/brandenburgGate3.jpg) no-repeat; 
         background-size: 100% 100%;
     }
     .name {
@@ -127,6 +132,9 @@
 
 }
 @media only screen and (max-width: 700px) {
+    .info {
+        font-size: 1.3em;
+    }
     .headlineRight {
         font-size: 1.7em;
     }   
@@ -183,18 +191,20 @@
     }
 }
 @media only screen and (max-width: 600px) {
+    .info {
+        font-size: 1.2em;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
     .main {
         overflow-x: hidden;
     }
-    .info {
-        font-size: 1.3em;
-    }
-
     .name {
         font-size: 3em;
     }
     .headerDe {
-        background: url(../images/london2.jpg) no-repeat; 
+        background: url(../images/brandenburgGate4.jpg) no-repeat; 
+        background-size: 100% 100%; 
     }
     .headerContainer {
         display: none;
@@ -228,17 +238,162 @@
             border: none;
         }
         a {
-            color: white;
+            color: rgb(255, 255, 255);
             text-decoration: none;
             font-size: 1.4em;
             img {
                 max-width: 30px;
+            } } } } 
+            .containerForm {
+                width: 350px;
             }
-        }         
+            .formfreeLesson {
+                legend {
+                    font-size: 20px;
+                }
+                label {
+                    font-size: 18px;
+                }
+            }
+            .costCalculation {       
+                button {
+                    height: 50px;
+                    margin: 10px;
+                    padding: 10px 20px 10px 20px;
+                    font-size: 18px;
+                }    
+            }
+            #schedule {    
+                thead {
+                    font-size: 16px;
+                }
+            }
         }
 
+@media only screen and (max-width: 480px) {
+    .name {
+        font-size: 2em;
+    }
+    .container {
+        overflow-x: hidden;
     }
 
+    .listTest {
+        height: 300px;
+        p {
+            font-size: 1em;
+        }
+    }
+    .headlineRight {
+        font-size: 1.4em;
+    }   
+    .headlineLeft {
+        font-size: 1.4em;
+    }
+    .textDescription > p {
+        font-size: 1.2em;
+    }
+    .buttonTest {
+        @include buttonsAction(200px, 0px);
+    }
+    .formfreeLesson {
+        legend {
+            font-size: 20px;
+        }
+        label {
+            font-size: 18px;
+        }
+        input {
+            font-size: 18px;
+            width: 250px;
+        }
+    }
+    .btnSend {
+        @include buttonsAction(200px, 30px);
+    }
+    .costCalculation {       
+        button {
+            margin: 10px;
+            padding: 0 10px 0 10px;
+            font-size: 18px;
+        }    
+    }
+    .openCloseCreateComment {    
+        #open {
+            width: 150px;
+            font-size: 18px;
+        }
+    }
+    .createComment {
+        form {
+            width: 300px;    
+            fieldset {
+                legend {
+                    font-size: 20px;
+                }
+                label {
+                    font-size: 18px;
+                }
+                input {
+                    font-size: 18px;
+                    width: 250px;
+                }
+                textarea {
+                    width: 250px;
+                    height: 100px;
+                    font-size: 18px;
+                }
+            }
+            button {
+                @include buttonsAction(200px, 30px);
+            }
+        }
+    }
 }
+@media only screen and (max-width: 380px){
+    .test {
+        display: none;
+    }
 
-@media only screen and (max-width: 480px) {}
+    .formfreeLesson {
+        display: none;
+    }
+
+    .price {
+        display: none;
+    }
+    .openCloseCreateComment {
+        display: none;
+    }
+    .footerDe {
+        height: 200px;     
+        div {
+            margin-top: 10px;
+        }
+    
+        p {
+            font-size: 14px;
+            
+            a {
+                margin: 10px;
+            }
+        }
+        .pName {
+            font-size: 18px;
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    .headlineRight {
+        font-size: 1.3em;
+        text-align: center;
+    }   
+    .headlineLeft {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .textDescription > p {
+       font-size: 18px;
+       text-align: center;
+ }
+}

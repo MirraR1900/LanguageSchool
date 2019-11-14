@@ -16,14 +16,10 @@
         li {
             display: inline;
         }
-    
         a {
             margin: 0 20px 15px 20px;
             font-size: 1.3em;
-            cursor: pointer;
-        }  
-        }
-    }
+            cursor: pointer;}  } }
     .headlineRight {
         font-size: 2em;
     }   
@@ -32,15 +28,12 @@
     } 
     .listTest {
         div {
-        font-size: 1.2em;
-        }
-    }
-}
+        font-size: 1.2em; } } }
 @media only screen and (max-width: 900px) {
-    .headerEn {
-        background: url(../images/londonBridgemob900.jpg) no-repeat; 
-        background-size: 100% 100%; 
-    }
+    // .headerEn {
+    //     background: url(../images/londonBridgemob900.jpg) no-repeat; 
+    //     background-size: 100% 100%; 
+    // }
     .info {
         font-size: 1.5em;
     }
@@ -51,7 +44,6 @@
         display: grid;
         grid-template-columns: 50% 50%;
         background-color: rgba(0, 0, 0, 0.4);
-
     }
     .languages {
         display: block;
@@ -62,21 +54,16 @@
     .navigationEnglish {  
         background-color: transparent;
     .navigationList  {
-        
         li {
             display: block;
             width: 250px;
             margin-bottom: 10px;
         } 
         a {
-            font-size: 1.3em;
-        }  
-        }
-    }
+            font-size: 1.3em;} } }
     .textDescription > p{
             margin-right: 10px;
-    }
-  
+    } 
 }
 @media only screen and (max-width: 800px) {
     .headerEn {
@@ -208,7 +195,6 @@
     .headerContainer {
         display: none;
     }
-
     .navMobile {
         display: block;
         width: 100px;
@@ -241,13 +227,7 @@
             text-decoration: none;
             font-size: 1.4em;
             img {
-                max-width: 30px;
-            }
-        }         
-        }
-
-    }
-
+                max-width: 30px; } } } }
     .containerForm {
         width: 350px;
     }
@@ -259,7 +239,6 @@
             font-size: 18px;
         }
     }
-
     .costCalculation {       
         button {
             height: 50px;
@@ -268,15 +247,12 @@
             font-size: 18px;
         }    
     }
-
     #schedule {    
         thead {
             font-size: 16px;
         }
     }
-
 }
-
 @media only screen and (max-width: 480px) {
     .name {
         font-size: 2em;
@@ -303,7 +279,6 @@
     .buttonTest {
         @include buttonsAction(200px, 0px);
     }
-
     .formfreeLesson {
         legend {
             font-size: 20px;
@@ -326,14 +301,12 @@
             font-size: 18px;
         }    
     }
-
     .openCloseCreateComment {    
         #open {
             width: 150px;
             font-size: 18px;
         }
     }
-   
     .createComment {
         form {
             width: 300px;    
@@ -354,12 +327,58 @@
                     font-size: 18px;
                 }
             }
-            
             button {
                 @include buttonsAction(200px, 30px);
             }
         }
     }
 
+}
+@media only screen and (max-width: 380px){
+    .test {
+        display: none;
+    }
+
+    .formfreeLesson {
+        display: none;
+    }
+
+    .price {
+        display: none;
+    }
+    .openCloseCreateComment {
+        display: none;
+    }
+    .footer {
+        height: 200px;     
+        div {
+            margin-top: 10px;
+        }
+    
+        p {
+            font-size: 14px;
+            
+            a {
+                margin: 10px;
+            }
+        }
+        .pName {
+            font-size: 18px;
+        }
+    }
+}
+@media only screen and (max-width: 320px){
+    .headlineRight {
+        font-size: 1.3em;
+        text-align: center;
+    }   
+    .headlineLeft {
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .textDescription > p {
+       font-size: 18px;
+       text-align: center;
+ }
 }
 

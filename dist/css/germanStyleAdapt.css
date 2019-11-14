@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1100px) {
   .headerDe {
-    background: url(../images/londonBridgemob900.jpg) no-repeat;
+    background: url(../images/brandenburgGate1.jpg) no-repeat;
     background-size: 100% 100%; }
   .name {
     font-size: 4em; }
@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 900px) {
   .headerDe {
-    background: url(../images/londonBridgemob900.jpg) no-repeat;
+    background: url(../images/brandenburgGate2.jpg) no-repeat;
     background-size: 100% 100%; }
   .info {
     font-size: 1.5em; }
@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 800px) {
   .headerDe {
-    background: url(../images/london1.jpg) no-repeat;
+    background: url(../images/brandenburgGate3.jpg) no-repeat;
     background-size: 100% 100%; }
   .name {
     font-size: 3em; }
@@ -73,6 +73,8 @@
         height: 150px; } }
 
 @media only screen and (max-width: 700px) {
+  .info {
+    font-size: 1.3em; }
   .headlineRight {
     font-size: 1.7em; }
   .headlineLeft {
@@ -107,14 +109,17 @@
         height: 100px; } }
 
 @media only screen and (max-width: 600px) {
+  .info {
+    font-size: 1.2em;
+    color: white;
+    text-align: center; }
   .main {
     overflow-x: hidden; }
-  .info {
-    font-size: 1.3em; }
   .name {
     font-size: 3em; }
   .headerDe {
-    background: url(../images/london2.jpg) no-repeat; }
+    background: url(../images/brandenburgGate4.jpg) no-repeat;
+    background-size: 100% 100%; }
   .headerContainer {
     display: none; }
   .navMobile {
@@ -145,4 +150,103 @@
       text-decoration: none;
       font-size: 1.4em; }
       .menuMobile .navigationListMobile a img {
-        max-width: 30px; } }
+        max-width: 30px; }
+  .containerForm {
+    width: 350px; }
+  .formfreeLesson legend {
+    font-size: 20px; }
+  .formfreeLesson label {
+    font-size: 18px; }
+  .costCalculation button {
+    height: 50px;
+    margin: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 18px; }
+  #schedule thead {
+    font-size: 16px; } }
+
+@media only screen and (max-width: 480px) {
+  .name {
+    font-size: 2em; }
+  .container {
+    overflow-x: hidden; }
+  .listTest {
+    height: 300px; }
+    .listTest p {
+      font-size: 1em; }
+  .headlineRight {
+    font-size: 1.4em; }
+  .headlineLeft {
+    font-size: 1.4em; }
+  .textDescription > p {
+    font-size: 1.2em; }
+  .buttonTest {
+    width: 200px;
+    margin: 0px;
+    font-size: 18px; }
+  .formfreeLesson legend {
+    font-size: 20px; }
+  .formfreeLesson label {
+    font-size: 18px; }
+  .formfreeLesson input {
+    font-size: 18px;
+    width: 250px; }
+  .btnSend {
+    width: 200px;
+    margin: 30px;
+    font-size: 18px; }
+  .costCalculation button {
+    margin: 10px;
+    padding: 0 10px 0 10px;
+    font-size: 18px; }
+  .openCloseCreateComment #open {
+    width: 150px;
+    font-size: 18px; }
+  .createComment form {
+    width: 300px; }
+    .createComment form fieldset legend {
+      font-size: 20px; }
+    .createComment form fieldset label {
+      font-size: 18px; }
+    .createComment form fieldset input {
+      font-size: 18px;
+      width: 250px; }
+    .createComment form fieldset textarea {
+      width: 250px;
+      height: 100px;
+      font-size: 18px; }
+    .createComment form button {
+      width: 200px;
+      margin: 30px;
+      font-size: 18px; } }
+
+@media only screen and (max-width: 380px) {
+  .test {
+    display: none; }
+  .formfreeLesson {
+    display: none; }
+  .price {
+    display: none; }
+  .openCloseCreateComment {
+    display: none; }
+  .footerDe {
+    height: 200px; }
+    .footerDe div {
+      margin-top: 10px; }
+    .footerDe p {
+      font-size: 14px; }
+      .footerDe p a {
+        margin: 10px; }
+    .footerDe .pName {
+      font-size: 18px; } }
+
+@media only screen and (max-width: 320px) {
+  .headlineRight {
+    font-size: 1.3em;
+    text-align: center; }
+  .headlineLeft {
+    font-size: 1.3em;
+    text-align: center; }
+  .textDescription > p {
+    font-size: 18px;
+    text-align: center; } }

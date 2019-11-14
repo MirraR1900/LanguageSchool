@@ -443,18 +443,6 @@ body {
         background: none;
         cursor: pointer;
     }
-    #close {
-        display: none; 
-        width: 250px;
-        padding: 10px;
-        color: $colorFontWhite;
-        font-size: 25px;
-        font-family: $fontPrata;
-        border: 2px solid $colorFontWhite;
-        border-radius: 30px;
-        background: none;
-        cursor: pointer;
-    }
 }
 .createComment {
     display: none;
@@ -515,7 +503,7 @@ body {
 }
 
 
-.footerGe {
+.footerDe {
     height: 250px; 
     background: rgb(151, 117, 66);
     display: grid;
