@@ -1,7 +1,9 @@
 $(function() {
 let name = $('#nameInput');
 let phone = $('#phoneInput');
-let email = $('#emailInput');
+let nameComment = $('#nameIputCom');
+let email = $('#emailInputCom');
+let comment = $('#textComment')
 let nameInp = null;
 let phoneInp = null;
 let phoneNum = document.getElementById('phoneInput');

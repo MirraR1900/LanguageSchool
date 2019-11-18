@@ -515,14 +515,14 @@
                                         <button id="open">Оставить отзыв</button>
                                 </div>
                                 <div class="createComment">
-                                        <form action="">
+                                        <form action="commentEn.php" method="POST" id="comment">
                                                 <fieldset>
                                                         <legend>Оставьте ваш отзыв о школе</legend>
                                                         <label for="">Имя</label><br>
-                                                        <input type="text"> <br>
+                                                        <input type="text" id="nameIputCom" name="nameCom" pattern="[A-Za-zА-Яа-яЁё]{1,20}" required> <br>
                                                         <label for="">E-mail</label><br>
-                                                        <input type="email" id="emailInput"><br>
-                                                        <textarea name="" id=""></textarea>
+                                                        <input type="email" id="emailInputCom" placeholder="ivanov@mail.ru" required><br>
+                                                        <textarea name="" id="textComment" required></textarea>
                                                 </fieldset>
                                                 <button type="submit">Отправить</button>
                                         </form>
