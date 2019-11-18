@@ -435,13 +435,13 @@
                                          <p>Запишитесь на бесплатный урок</p>
                                  </div>
                                 <div class="containerForm">
-                                        <form action="freeLessonEn.php" method="POST">
+                                        <form action="freeLessonEn.php" method="POST" id="sendFormFreeLesson">
                                                 <fieldset>
                                                         <legend>Запись на бесплатный урок</legend>
                                                         <label for="name">Имя </label><br>
-                                                        <input type="text" name="name"><br>
+                                                        <input type="text" id="nameInput" name="name" pattern="[A-Za-zА-Яа-яЁё]{1,20}" required><br>
                                                         <label for="phone">Телефон </label><br>
-                                                        <input type="tel" name="phone"><br>
+                                                        <input type="tel" id="phoneInput" name="phone" required><br>
                                                 </fieldset>
                                                 <button type="submit" class="btnSend">Отправить</button>
                                         </form>
@@ -521,7 +521,7 @@
                                                         <label for="">Имя</label><br>
                                                         <input type="text"> <br>
                                                         <label for="">E-mail</label><br>
-                                                        <input type="email"><br>
+                                                        <input type="email" id="emailInput"><br>
                                                         <textarea name="" id=""></textarea>
                                                 </fieldset>
                                                 <button type="submit">Отправить</button>
@@ -547,6 +547,8 @@
         <script src="js/test.js"></script>
         <script src="js/price.js"></script>
         <script src="js/comments.js"></script>
+        <script src="js/checkingInputFields.js"></script>
+        <script src="js/sendFreelesson.js"></script>
         <script src="js/displayWidth.js"></script>
 </body>
 

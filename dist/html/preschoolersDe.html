@@ -117,9 +117,9 @@
                                 <fieldset>
                                         <legend>Запись на бесплатный урок</legend>
                                         <label for="name">Имя </label><br>
-                                        <input type="text" name="name"><br>
+                                        <input type="text" id="nameInput" name="name" pattern="[A-Za-zА-Яа-яЁё]{1,20}" required><br>
                                         <label for="phone">Телефон </label><br>
-                                        <input type="tel" name="phone"><br>
+                                        <input type="tel" id="phoneInput" name="phone" required><br>
                                 </fieldset>
                                 <button type="submit" class="btnSend">Отправить</button>
                         </form>
@@ -224,6 +224,7 @@
     <script src="../js/test.js"></script>
     <script src="../js/price.js"></script>
     <script src="../js/comments.js"></script>
+    <script src="../js/checkingInputFields.js"></script>
 </body>
 
 </html>
