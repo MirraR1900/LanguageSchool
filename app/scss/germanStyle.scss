@@ -488,7 +488,7 @@ body {
                 font-size: 25px;
             }
             input {
-                @include buttonOpenClose;
+                @include inputForm;
             }
             textarea {
                 width: 650px;
