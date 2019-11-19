@@ -491,6 +491,7 @@ body {
                 @include buttonOpenClose;
             }
             textarea {
+                width: 650px;
                 border: 1px solid $colorFontWhite;
                 border-radius: 30px;
                 background: none;

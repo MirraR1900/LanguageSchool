@@ -4,13 +4,15 @@ let phone = $('#phoneInput');
 let nameComment = $('#nameIputCom');
 let email = $('#emailInputCom');
 let comment = $('#textComment')
-let nameInp = null;
-let phoneInp;
+let nameVal = null;
+let phoneVal;
+let nameCommentVal;
+let emailVal;
 let phoneNum = document.getElementById('phoneInput');
 
 name.blur(function() {
-    nameInp = name.val();
-    if((! /^[A-Za-zА-Яа-яЁё]+$/.test(nameInp)) || nameInp === '') {
+    nameVal = name.val();
+    if((! /^[A-Za-zА-Яа-яЁё]+$/.test(nameVal)) || nameVal === '') {
         name.css('border', '1px solid red');
     } else {
         name.css('border', '1px solid white');
@@ -18,17 +20,37 @@ name.blur(function() {
 });
 
 phone.blur(function() {
-    phoneInp = phone.val();
-    if(phoneInp === "+7"){
+    phoneVal = phone.val();
+    if(phoneVal === "+7"){
         phone.css('border', '1px solid red');
     } else {
         phone.css('border', '1px solid white');
-        console.log(phoneInp);
-        console.log(phoneInp.length);  // 16
+        console.log(phoneVal);
+        console.log(phoneVal.length);  // 16
     }
         
        
 });
+
+nameComment.blur(function() {
+    nameCommentVal = nameComment.val();
+    if((! /^[A-Za-zА-Яа-яЁё]+$/.test(nameCommentVal)) || nameCommentVal === '') {
+        nameComment.css('border', '1px solid red');
+    } else {
+        nameComment.css('border', '1px solid white');
+    }
+});
+
+email.blur( function() {
+    emailVal = email.val();
+    if((! /^[a-z0-9_-]+@[a-z0-9-]+\.([a-z]{1,6}\.)?[a-z]{2,10}$/.test(emailVal)) || emailVal === '') {
+        email.css('border', '1px solid red');
+    } else {
+        email.css('border', '1px solid white');
+    }
+});
+
+
 
 window.addEventListener('DOMContentLoaded', function() {
     function setCursorPosition(pos, elem) {

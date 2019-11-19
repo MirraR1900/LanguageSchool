@@ -515,10 +515,10 @@
                                 <fieldset>
                                         <legend>Оставьте ваш отзыв о школе</legend>
                                         <label for="">Имя</label><br>
-                                        <input type="text"> <br>
+                                        <input type="text" id="nameIputCom" name="nameCom" pattern="[A-Za-zА-Яа-яЁё]{1,20}" required> <br>
                                         <label for="">E-mail</label><br>
-                                        <input type="email"><br>
-                                        <textarea name="" id="" cols="50" rows="10"></textarea>
+                                        <input type="email" id="emailInputCom" placeholder="ivanov@mail.ru" required><br>
+                                        <textarea name="" id="textComment" required></textarea>
                                 </fieldset>
                                 <button type="submit">Отправить</button>
                         </form>
@@ -542,6 +542,7 @@
     <script src="../js/price.js"></script>
     <script src="../js/comments.js"></script>
     <script src="../js/checkingInputFields.js"></script>
+    <script src="../js/sendFreelesson.js"></script>
     <script src="../js/displayWidth.js"></script>
 </body>
 

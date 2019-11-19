@@ -424,6 +424,7 @@ body {
       background: none;
       cursor: pointer; }
     .createComment form fieldset textarea {
+      width: 650px;
       border: 1px solid white;
       border-radius: 30px;
       background: none;
