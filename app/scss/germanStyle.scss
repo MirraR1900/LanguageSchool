@@ -304,6 +304,36 @@ body {
     background-attachment: fixed;
     height: 650px;
 }
+.Children1 {
+    background: url("../images/technologies.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
+.Children2 {
+    background: url("../images/time.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
+.Children3 {
+    background: url("../images/onlineChild.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
+.Children4 {
+    background: url("../images/children.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
+.Children5 {
+    background: url("../images/childPractice.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: $reasonHeight;
+}
 
 .reasonNumber h2 {
     color: $colorFontWhite;

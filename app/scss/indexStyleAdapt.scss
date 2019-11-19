@@ -225,6 +225,10 @@ $colorFontWhite: rgb(255, 255, 255);
             font-size: 1.4em;
             img {
                 max-width: 30px; } } } }
+
+    .text {
+        font-size: 23px;
+    }           
     .containerForm {
         width: 350px;
     }
@@ -276,6 +280,9 @@ $colorFontWhite: rgb(255, 255, 255);
     .buttonTest {
         @include buttonsAction(200px, 0px);
     }
+    .text {
+        font-size: 20px;
+    } 
     .formfreeLesson {
         legend {
             font-size: 20px;

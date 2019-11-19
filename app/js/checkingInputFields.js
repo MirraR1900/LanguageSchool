@@ -5,25 +5,29 @@ let nameComment = $('#nameIputCom');
 let email = $('#emailInputCom');
 let comment = $('#textComment')
 let nameInp = null;
-let phoneInp = null;
+let phoneInp;
 let phoneNum = document.getElementById('phoneInput');
 
-// name.blur(function() {
-//     nameInp = name.val();
-//     if((! /^[A-Za-zА-Яа-яЁё]+$/.test(nameInp)) || nameInp === '') {
-//         name.css('border', '3px solid red');
-//     };
-// });
+name.blur(function() {
+    nameInp = name.val();
+    if((! /^[A-Za-zА-Яа-яЁё]+$/.test(nameInp)) || nameInp === '') {
+        name.css('border', '1px solid red');
+    } else {
+        name.css('border', '1px solid white');
+    }
+});
 
 phone.blur(function() {
-    if(!phoneInp === '') {
-        phoneInp = phone.val();
-        console.log(phoneInp); // 16
-        console.log(phoneInp.length);
+    phoneInp = phone.val();
+    if(phoneInp === "+7"){
+        phone.css('border', '1px solid red');
     } else {
-        // phone.css('border', '3px solid red');
+        phone.css('border', '1px solid white');
+        console.log(phoneInp);
+        console.log(phoneInp.length);  // 16
     }
-   
+        
+       
 });
 
 window.addEventListener('DOMContentLoaded', function() {

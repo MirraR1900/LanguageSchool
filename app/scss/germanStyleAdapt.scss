@@ -245,31 +245,34 @@ $colorFontWhite: rgb(255, 255, 255);
             img {
                 max-width: 30px;
             } } } } 
-            .containerForm {
-                width: 350px;
-            }
-            .formfreeLesson {
-                legend {
-                    font-size: 20px;
-                }
-                label {
-                    font-size: 18px;
-                }
-            }
-            .costCalculation {       
-                button {
-                    height: 50px;
-                    margin: 10px;
-                    padding: 10px 20px 10px 20px;
-                    font-size: 18px;
-                }    
-            }
-            #schedule {    
-                thead {
-                    font-size: 16px;
-                }
-            }
+    .text {
+        font-size: 23px;
+    }          
+    .containerForm {
+         width: 350px;
+    }
+    .formfreeLesson {
+        legend {
+            font-size: 20px;
         }
+            label {
+                font-size: 18px;
+            }
+   }
+   .costCalculation {       
+        button {
+            height: 50px;
+            margin: 10px;
+            padding: 10px 20px 10px 20px;
+            font-size: 18px;
+            }    
+        }
+        #schedule {    
+            thead {
+                font-size: 16px;
+            }
+         }
+    }
 
 @media only screen and (max-width: 480px) {
     .name {
@@ -297,6 +300,9 @@ $colorFontWhite: rgb(255, 255, 255);
     .buttonTest {
         @include buttonsAction(200px, 0px);
     }
+    .text {
+        font-size: 20px;
+    } 
     .formfreeLesson {
         legend {
             font-size: 20px;

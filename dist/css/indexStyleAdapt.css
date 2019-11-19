@@ -147,6 +147,8 @@
       font-size: 1.4em; }
       .menuMobile .navigationListMobile a img {
         max-width: 30px; }
+  .text {
+    font-size: 23px; }
   .containerForm {
     width: 350px; }
   .formfreeLesson legend {
@@ -180,6 +182,8 @@
     width: 200px;
     margin: 0px;
     font-size: 18px; }
+  .text {
+    font-size: 20px; }
   .formfreeLesson legend {
     font-size: 20px; }
   .formfreeLesson label {
