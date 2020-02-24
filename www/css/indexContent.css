@@ -1,0 +1,64 @@
+.navigationEnglish {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+.navigationEnglish .navigationList li {
+    display: inline; 
+}
+.navigationEnglish .navigationList button {
+    margin: 0 20px 15px 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.4em;
+    font-family: "Prata", serif;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .navMobile {
+    display: none; 
+}
+  
+  .menuMobile {
+    display: none; 
+}
+  
+  .description {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 300px;
+  }
+  
+  .textDescription {
+    color: rgb(255, 255, 255);
+    font-family: "Prata", serif; 
+    line-height: 50px;
+  }
+  
+  .headlineRight {
+    height: auto;
+    font-size: 2.5em;
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .headlineLeft {
+    text-align: left;
+    font-size: 2.5em;
+    font-family: "Prata", serif; 
+    margin-left: 20px;
+  }
+  
+  .age  {
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .article {
+    font-size: 20px;
+  }
+  

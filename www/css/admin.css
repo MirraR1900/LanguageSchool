@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#singIn {
+    margin: 40px auto;
+    width: 450px;
+}
+
+fieldset {
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+}
+input {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+#btnSingIn {
+    width: 120px;
+    height: 30px;
+    border: 2px solid rgb(143, 137, 137);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.titleAdmin {
+    font-size: 23px;
+    margin-bottom: 30px;
+}
+
+#btnAdmin{
+    width: 120px;
+    height: 30px;
+    border: 2px solid rgb(143, 137, 137);
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.freelesson {
+    height: 450px;
+    border: 1px solid rgb(128, 128, 128);
+    margin-bottom: 50px;
+    overflow-y: auto;
+    position: relative;
+}
+
+#listFreeLesson, #listCommentsEn, #listCommentsDe {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+#listFreeLesson td {
+    padding: 10px 0;
+}
+
+#listFreeLesson tr:hover, #listCommentsEn tr:hover,#listCommentsDe tr:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+.border {
+    border-spacing: 0;
+}
+.border td {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+}
+
+.border td.hideEn, .border td.hideDe {
+    border: none;
+}
+
+.headTable {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.headTable{
+    border-bottom: 2px solid rgb(128, 128, 128);
+}
+
+.tdHeigth {
+    height: 40px;
+}
+
+.height {
+     height: 100px;
+}
+
+.commentsEn {
+    height: 450px;
+    border: 1px solid rgb(128, 128, 128);
+    margin-bottom: 50px;
+    overflow-y: auto;
+    overflow-x: auto;
+    position: relative;
+}
+
+.commentsDe {
+    height: 450px;
+    border: 1px solid rgb(128, 128, 128);
+    margin-bottom: 50px;
+    overflow-y: auto;
+    position: relative;
+}
+
+#editFreeLesson, #editCommentEn, #editCommentDe {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 120px;
+    height: 30px;
+    border: 2px solid rgb(143, 137, 137);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hide, .hideEn, .hideDe {
+    display: none;
+    float: right;
+    border: none;
+}
+
+.edit, .delete {
+    width: 80px;
+    height: 30px;
+    border: 2px solid rgb(143, 137, 137);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+}

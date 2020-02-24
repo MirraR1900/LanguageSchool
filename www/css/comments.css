@@ -1,0 +1,125 @@
+.comments {
+    color: rgb(255, 255, 255);
+}       
+#contentCom {
+    height: 450px;
+     overflow-y: scroll;
+     border: 3px solid rgb(128, 128, 128);
+}
+.showComments {
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+} 
+
+.contentComment {
+    margin: 20px 30px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: rgb(128, 128, 128);
+    border-radius: 3px;
+}
+
+.nameUser {
+    font-size: 30px;
+    font-family: "Prata", serif;
+    font-style: italic;
+    margin: 10px 0 20px 30px;
+}
+
+.textComment {
+    font-size: 22px;
+    font-family: "Prata", serif;
+    margin: 0 40px;
+}
+
+.dateParg {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.dateComent {
+    font-size: 18px;
+    font-weight: bold;
+}
+.openCloseCreateComment {
+    text-align: center;
+    padding: 30px; 
+}
+.openCloseCreateComment #open {
+    margin: auto;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    font-family: "Prata", serif;
+    border: 2px solid white;
+    border-radius: 30px;
+    background: none;
+    cursor: pointer; 
+}
+
+#buttonClose {
+    display: none;
+    width: 40px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background: none;
+    border: none;
+    float: right;
+}
+.createComment {
+    display: none; 
+}
+.createComment form {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center; 
+}
+.createComment form fieldset legend {
+    color: rgb(255, 255, 255);
+    font-size: 30px; 
+}
+.createComment form fieldset label {
+    color: rgb(255, 255, 255);
+    font-size: 25px; 
+}
+.createComment form fieldset input {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background: none;
+    margin: 10px 0 20px 10px; 
+}
+.createComment form fieldset textarea {
+    width: 550px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background: none;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding: 20px;
+    font-size: 20px; 
+    resize: none;
+}
+.createComment form button {
+    width: 250px;
+    height: 50px;
+    margin: 30px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "Prata", serif;
+    cursor: pointer; 
+}
+.createComment form button:hover {
+    font-weight: 900; 
+}
