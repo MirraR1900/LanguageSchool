@@ -12,3 +12,5 @@ Comments are uploaded to the page from the database. All new comments are added 
 - MySQL DB
 - Browsers Google Chrome, FireFox, Opera, Edge
 - Do not support IE
+
+![website](adminPanel.jpg "website")
