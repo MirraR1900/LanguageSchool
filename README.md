@@ -13,4 +13,7 @@ Comments are uploaded to the page from the database. All new comments are added 
 - Browsers Google Chrome, FireFox, Opera, Edge
 - Do not support IE
 
+## Admin Panel Description
+Admin panel with tables for editing. Data in tables is loaded from the database.
+
 ![website](adminPanel.jpg "website")
