@@ -15,5 +15,6 @@ Comments are uploaded to the page from the database. All new comments are added 
 
 ## Admin Panel Description
 Admin panel with tables for editing. Data in tables is loaded from the database.
+In the table "Registration for a free lesson," the administrator can make comments on the recording. Edit cells "Name" and "Phone number"
 
 ![website](adminPanel.jpg "website")
