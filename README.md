@@ -7,5 +7,6 @@ The site is a practical work and was written with the aim of learning: the basic
 - PHP
 - CSS
 - JQuery
+- MySQL DB
 - Browsers Google Chrome, FireFox, Opera, Edge
 - Do not support IE
