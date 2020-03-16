@@ -16,4 +16,4 @@
         </div>
         <p class="info"><span>Language School</span> - твой путь к успеху, начни говорить на иностраном языке свободно.</p>
         </div>
-    </div>
+        </div>

@@ -10,6 +10,7 @@
 <p><a href="">Вакансии</a></p>
 </div>
 </div>
+</div>
 <script src="../js/menuAction.js"></script>
     <script src=<?=$pageStart?>></script>
     <script src="../js/test.js"></script>

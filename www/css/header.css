@@ -3,6 +3,7 @@
   margin: 0 auto;
   max-width: 1280px;
   background: rgb(54, 54, 54);
+  overflow-y: hidden;
 }
 .header {
   background: url(../images/londonBridge.jpg) no-repeat;

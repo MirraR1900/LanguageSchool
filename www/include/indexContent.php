@@ -9,9 +9,7 @@
     </div>
 <div id="contentPage"></div>
 </div>
-<div>
 <?php require "include/reasons.php";
       require "include/freelesson.php";
       require "include/comments.php";
-    ?>
-</div>
+?>
