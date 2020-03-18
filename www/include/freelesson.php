@@ -1,5 +1,5 @@
 <div class="formfreeLesson" id="formfreeLesson">
-<p class="headlineLeft">Запишитесь на бесплатный урок</p>
+<p class="headlineRight">Запишитесь на бесплатный урок</p>
 <div class="containerForm">
 <form action="freeLesson.php" id="sendFormFreeLesson" method="POST">
 <fieldset>

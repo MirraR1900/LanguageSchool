@@ -1,7 +1,7 @@
 ﻿<?php 
 ?>
 <div class="comments" id="comments">
-<div class="headlineRight">
+<div class="headlineLeft">
 <p>Отзывы наших учеников</p>
 </div>
 <div id="contentCom"><div class="showComments"></div></div>

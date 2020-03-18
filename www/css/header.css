@@ -13,7 +13,7 @@
   max-width: 1280px;
   height: 550px;
 }
-  
+
 .font {
   background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -29,6 +29,7 @@
   color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
 }
+
 span {
   font-size: 50px;
   font-family: 'Mansalva', cursive;
@@ -69,4 +70,298 @@ span {
   color: white;
   font-size: 20px;
 }
-  
+
+.navMobile {
+  display: none;
+}
+
+#MenuBtn {
+  width: 50px;
+  font-size: 30px;
+  border: 2px solid rgba(255, 255, 255,0.9);
+  border-radius: 10px;
+  background-color: rgba(25, 25, 112, 0.6);
+  color: rgb(255, 255, 255);
+  margin-left: 10px;
+}
+
+.mobilInfo {
+  color: white;
+  font-size: 20px;
+}
+
+.fontMobile {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 15;
+}
+
+.btnClose {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#closeMenu {
+  color: rgb(255, 255, 255);  
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace; 
+  background: none;
+  border: none;
+}
+
+/* .contentLink {
+  border: 1px solid red;
+} */
+
+/* .menuMobile {
+  color: rgb(255, 255, 255);
+} */
+
+.menuMobile li {
+  text-align: center;
+  list-style-type: none;
+  margin: 15px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  cursor: pointer;  /**/
+}
+
+#adultsEnMobile, #pupilsEnMobile, #preschoolersEnMobile, #examEnMobile {
+  font-family: "Prata", serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(255, 255, 255); 
+  border: none;
+  background: none;
+  cursor: pointer;  /**/
+}
+
+@media only screen and (max-width: 1024px) {
+  .header {
+    background: url(../images/londonBridge1024.jpg) no-repeat;
+    height: 550px;
+  }
+
+  .navMobile {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .font  {
+    display: none;
+  }
+
+  .fontMobile {
+    display: none;
+  }
+
+  .blockMenu {
+    height: 50px;
+  }
+
+  .titleMobile {
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .header {
+    background: url(../images/londonBridge900.jpg) no-repeat;
+    height: 410px;
+  }
+
+  .navMobile {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .font  {
+    display: none;
+  }
+
+  .fontMobile {
+    display: none;
+  }
+
+  .blockMenu {
+    height: 50px;
+  }
+
+  .titleMobile {
+    height: 360px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header {
+    background: url(../images/londonBridge800.jpg) no-repeat;
+    height: 350px;
+  }
+
+  .navMobile {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .font  {
+    display: none;
+  }
+
+  .fontMobile {
+    display: none;
+  }
+
+  .blockMenu {
+    height: 50px;
+  }
+
+  .titleMobile {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .header {
+    background: url(../images/londonBridge720.jpg) no-repeat;
+    height: 320px;
+  }
+
+  .navMobile {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .font  {
+    display: none;
+  }
+
+  .fontMobile {
+    display: none;
+  }
+
+  .blockMenu {
+    height: 50px;
+  }
+
+  .titleMobile {
+    height: 270px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    background: url(../images/londonBridge600.jpg) no-repeat;
+    height: 270px;
+  }
+
+  .navMobile {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .font  {
+    display: none;
+  }
+
+.fontMobile {
+    display: none;
+  }
+
+  .blockMenu {
+    height: 50px;
+  }
+
+  .titleMobile {
+    height: 220px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    background: url(../images/londonBridge480.jpg) no-repeat;
+    height: 220px;
+  }
+
+  .navMobile {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .font  {
+    display: none;
+  }
+
+  .fontMobile {
+    display: none;
+  }
+
+  .blockMenu {
+    height: 50px;
+  }
+
+  .titleMobile {
+    height: 160px;
+
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .header {
+    background: url(../images/londonBridge380.jpg) no-repeat;
+    height: 170px;
+  }
+
+  .navMobile {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .font  {
+    display: none;
+  }
+
+  .fontMobile {
+    display: none;
+  }
+
+  .blockMenu {
+    height: 50px;
+  }
+
+  .titleMobile {
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+   .header {
+    background: url(../images/londonBridge320.jpg) no-repeat;
+    height: 150px;
+  }
+  .navMobile {
+    display: block;
+    color: rgb(255, 255, 255);
+  }
+
+  .font  {
+    display: none;
+  }
+
+  .fontMobile {
+    display: none;
+  }
+
+  .blockMenu {
+    height: 50px;
+  }
+
+  .titleMobile {
+    height: 100px;
+  }
+}

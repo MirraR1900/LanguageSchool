@@ -11,50 +11,9 @@
   padding: 0;
 }
 
-.containerForm {
-  width: 500px;
-  margin: 30px auto; 
-}
-.containerForm form {
-  text-align: center; 
-}
-.formfreeLesson {
-  color: rgb(255, 255, 255);
-}
-.formfreeLesson legend {
-  color: white;
-  font-size: 30px; 
-}
-.formfreeLesson label {
-  color: white;
-  font-size: 25px; 
-}
-.formfreeLesson input {
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  width: 350px;
-  height: 50px;
-  border: 1px solid white;
-  border-radius: 30px;
-  background: none;
-  margin: 10px 0 20px 10px; 
-}
-.btnSend {
-  width: 250px;
-  height: 50px;
-  margin: 30px;
-  border: 2px solid white;
-  border-radius: 30px;
-  background: none;
-  color: white;
-  font-size: 20px;
-  font-family: "Prata", serif;
-  cursor: pointer; 
-}
-.btnSend:hover {
-  font-weight: 900; 
-}
+
+
+
 
 .costCalculation {
   text-align: center; 

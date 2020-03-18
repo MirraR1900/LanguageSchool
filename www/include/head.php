@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/indexContent.css">
     <link rel="stylesheet" href="css/reasons.css">
+    <link rel="stylesheet" href="css/freeLesson.css">
     <link rel="stylesheet" href="css/comments.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/indexStyle.css">

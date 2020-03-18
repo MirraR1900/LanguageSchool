@@ -32,9 +32,18 @@ $(function() {
 
     // The function for the mobile menu is responsible 
     // for the appearance of the menu when you press the "Menu" button
-    $('.navMobile').click(function() {
-        $('.menuMobile').animate({width:'toggle'}, 450);
-    });
+        $('#MenuBtn').click(function() {
+         $('.fontMobile').animate({opacity: 'toggle'}, 1500);
+        });
+
+        $('#closeMenu').click(function(){
+            $('.fontMobile').animate({opacity:'toggle'}, 1500);
+        });
+
+
+    // $('.navMobile').click(function() {
+    //     $('.menuMobile').animate({width:'toggle'}, 450);
+    // });
 
     $('#adultsEn').click(function() {
         $('#contentPage').load('page/adultsEn.php');
@@ -63,4 +72,39 @@ $(function() {
     $('#examDe').click(function() {
         $('#contentPage').load('page/examsDe.php');
     });    
+
+
+
+   // Mobile menu
+    $('#adultsEnMobile').click(function() {
+        $('#contentPage').load('page/adultsEn.php');
+        $('.fontMobile').animate({opacity:'toggle'}, 400);
+    });
+    $('#pupilsEnMobile').click(function() {
+        $('#contentPage').load('page/pupilsEn.php');
+        $('.fontMobile').animate({opacity:'toggle'}, 400);
+    });
+
+    $('#preschoolersEnMobile').click(function() {
+        $('#contentPage').load('page/preschoolersEn.php');
+        $('.fontMobile').animate({opacity:'toggle'}, 400);
+    });
+    $('#examEnMobile').click(function() {
+        $('#contentPage').load('page/examsEn.php');
+        $('.fontMobile').animate({opacity:'toggle'}, 400);
+    });
+
+    $('#adultsDe').click(function() {
+        $('#contentPage').load('page/adultsDe.php');
+    });
+    $('#pupilsDe').click(function() {
+        $('#contentPage').load('page/pupilsDe.php');
+    });
+
+    $('#preschoolersDe').click(function() {
+        $('#contentPage').load('page/preschoolersDe.php');
+    });
+    $('#examDe').click(function() {
+        $('#contentPage').load('page/examsDe.php');
+    }); 
 });

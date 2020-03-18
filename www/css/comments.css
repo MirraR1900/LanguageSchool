@@ -123,3 +123,167 @@
 .createComment form button:hover {
     font-weight: 900; 
 }
+
+@media only screen and (max-width: 720px) {
+    .openCloseCreateComment #open {
+        margin: auto;
+        width: 200px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .createComment form {
+        width: 550px;
+    }
+
+    .createComment form fieldset legend {
+        font-size: 20px; 
+    }
+
+    .createComment form fieldset label {
+        font-size: 20px; 
+    }
+    fieldset {
+        margin-left: 30px;
+    }
+    .createComment form fieldset input {
+        font-size: 20px;
+        width: 350px;
+        height: 50px;
+    }
+    .createComment form fieldset textarea {
+        width: 350px;
+        margin-bottom: 10px;
+        font-size: 20px; 
+        resize: none;
+    }
+
+    .createComment form button {
+        width: 200px;
+        height: 40px;
+        margin: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .openCloseCreateComment #open {
+        margin: auto;
+        width: 200px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .createComment form {
+        width: 450px;
+    }
+
+    .createComment form fieldset legend {
+        font-size: 20px; 
+    }
+
+    .createComment form fieldset label {
+        font-size: 20px; 
+    }
+    fieldset {
+        margin-left: 30px;
+    }
+    .createComment form fieldset input {
+        font-size: 20px;
+        width: 300px;
+        height: 50px;
+    }
+    .createComment form fieldset textarea {
+        width: 230px;
+        margin-bottom: 10px;
+        /* padding: 20px; */
+        font-size: 20px; 
+        resize: none;
+    }
+
+    .createComment form button {
+        width: 200px;
+        height: 40px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .openCloseCreateComment #open {
+        margin: auto;
+        width: 200px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .createComment form {
+        width: 300px;
+    }
+
+    .createComment form fieldset legend {
+        font-size: 20px; 
+    }
+
+    .createComment form fieldset label {
+        font-size: 20px; 
+    }
+    .createComment form fieldset input {
+        font-size: 20px;
+        width: 250px;
+        height: 40px;
+        margin: 10px 0 20px 10px; 
+    }
+    .createComment form fieldset textarea {
+        width: 230px;
+        margin-bottom: 10px;
+        /* padding: 20px; */
+        font-size: 20px; 
+        resize: none;
+    }
+
+    .createComment form button {
+        width: 200px;
+        height: 40px;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .openCloseCreateComment #open {
+        margin: auto;
+        width: 200px;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .createComment form {
+        width: 300px;
+    }
+
+    .createComment form fieldset legend {
+        font-size: 20px; 
+    }
+
+    .createComment form fieldset label {
+        font-size: 20px; 
+    }
+    .createComment form fieldset input {
+        font-size: 20px;
+        width: 250px;
+        height: 40px;
+        margin: 10px 0 20px 10px; 
+    }
+    .createComment form fieldset textarea {
+        width: 230px;
+        margin-bottom: 10px;
+        /* padding: 20px; */
+        font-size: 20px; 
+        resize: none;
+    }
+
+    .createComment form button {
+        width: 200px;
+        height: 40px;
+        margin: 10px;
+    }
+}
