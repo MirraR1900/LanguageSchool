@@ -5,6 +5,11 @@ $adult = 'adultsEn';
 $pupils = 'pupilsEn';
 $preschoolers = 'preschoolersEn';
 $exam = 'examEn';
+
+$adultMobile = 'adultsEnMobile';
+$pupilsMobile = 'pupilsEnMobile';
+$preschoolersMobile = 'preschoolersEnMobile';
+$examMobile = 'examEnMobile';
 $pageStart = "../js/mainPage.js";
 require "include/head.php";
 require "include/header.php";
