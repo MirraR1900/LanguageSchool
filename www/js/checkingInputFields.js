@@ -3,7 +3,6 @@ let name = $('#nameInput');
 let phone = $('#phoneInput');
 let nameComment = $('#nameIputCom');
 let email = $('#emailInputCom');
-let comment = $('#textComment')
 let nameVal = null;
 let phoneVal;
 let nameCommentVal;
@@ -26,7 +25,7 @@ phone.blur(function() {
     } else {
         phone.css('border', '1px solid white');
         console.log(phoneVal);
-        console.log(phoneVal.length);  // 16
+        console.log(phoneVal.length);
     }  
 });
 

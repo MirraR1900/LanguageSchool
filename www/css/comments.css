@@ -124,6 +124,17 @@
     font-weight: 900; 
 }
 
+@media only screen and (max-width: 800px) {
+    .createComment form {
+        width: 700px;
+    }
+
+    #comment fieldset {
+        width: 550px;
+        margin: auto;
+    }
+}
+
 @media only screen and (max-width: 720px) {
     .openCloseCreateComment #open {
         margin: auto;
@@ -133,7 +144,7 @@
     }
 
     .createComment form {
-        width: 550px;
+        width: 600px;
     }
 
     .createComment form fieldset legend {
@@ -143,9 +154,7 @@
     .createComment form fieldset label {
         font-size: 20px; 
     }
-    fieldset {
-        margin-left: 30px;
-    }
+
     .createComment form fieldset input {
         font-size: 20px;
         width: 350px;
@@ -165,8 +174,38 @@
     }
 }
 
-
 @media only screen and (max-width: 480px) {
+    .contentComment {
+        margin: 20px 30px;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        border: rgb(128, 128, 128);
+        border-radius: 3px;
+    }
+
+    .nameUser {
+        font-size: 20px;
+        font-family: "Prata", serif;
+        font-style: italic;
+        font-weight: bold;
+        margin: 10px 0 10px 10px;
+    }
+    
+    .textComment {
+        font-size: 18px;
+        font-family: "Prata", serif;
+        margin: 0 40px;
+    }
+
+    .dateParg {
+        text-align: right;
+        margin: 20px;
+    }
+        
+    .dateComent {
+        font-size: 16px;
+        font-weight: bold;
+    }
     .openCloseCreateComment #open {
         margin: auto;
         width: 200px;
@@ -175,41 +214,30 @@
     }
 
     .createComment form {
-        width: 450px;
+        width: 470px;
     }
 
     .createComment form fieldset legend {
         font-size: 20px; 
     }
 
+    #comment fieldset {
+        width: 470px;
+    }
+
     .createComment form fieldset label {
         font-size: 20px; 
     }
-    fieldset {
-        margin-left: 30px;
-    }
+
     .createComment form fieldset input {
         font-size: 20px;
-        width: 300px;
+        width: 350px;
         height: 50px;
-    }
-    .createComment form fieldset textarea {
-        width: 230px;
-        margin-bottom: 10px;
-        /* padding: 20px; */
-        font-size: 20px; 
-        resize: none;
-    }
-
-    .createComment form button {
-        width: 200px;
-        height: 40px;
-        margin: 10px;
     }
 }
 
 @media only screen and (max-width: 380px) {
-    .openCloseCreateComment #open {
+     .openCloseCreateComment #open {
         margin: auto;
         width: 200px;
         padding: 10px;
@@ -218,6 +246,11 @@
 
     .createComment form {
         width: 300px;
+    }
+
+    #comment fieldset {
+        width: 300px;
+        margin: auto;
     }
 
     .createComment form fieldset legend {
@@ -236,20 +269,13 @@
     .createComment form fieldset textarea {
         width: 230px;
         margin-bottom: 10px;
-        /* padding: 20px; */
         font-size: 20px; 
         resize: none;
-    }
-
-    .createComment form button {
-        width: 200px;
-        height: 40px;
-        margin: 10px;
     }
 }
 
 @media only screen and (max-width: 320px) {
-    .openCloseCreateComment #open {
+   .openCloseCreateComment #open {
         margin: auto;
         width: 200px;
         padding: 10px;
@@ -258,32 +284,5 @@
 
     .createComment form {
         width: 300px;
-    }
-
-    .createComment form fieldset legend {
-        font-size: 20px; 
-    }
-
-    .createComment form fieldset label {
-        font-size: 20px; 
-    }
-    .createComment form fieldset input {
-        font-size: 20px;
-        width: 250px;
-        height: 40px;
-        margin: 10px 0 20px 10px; 
-    }
-    .createComment form fieldset textarea {
-        width: 230px;
-        margin-bottom: 10px;
-        /* padding: 20px; */
-        font-size: 20px; 
-        resize: none;
-    }
-
-    .createComment form button {
-        width: 200px;
-        height: 40px;
-        margin: 10px;
     }
 }

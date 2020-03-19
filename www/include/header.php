@@ -5,11 +5,12 @@
         </div>
             <div class="contentLink">
             <ul class="menuMobile">
-            <li>Немецкий язык</li>
-            <li class="visible"><button id="<?=$adultMobile?>">Английский для взрослых</button></li>
-            <li class="hidden"><button id="<?=$pupilsMobile?>">Английский для школьников</button></li>
-            <li class="hidden"><button id="<?=$preschoolersMobile?>">Английский для дошкольников</button></li>
-            <li class="hidden"><button id="<?=$examMobile?>">Английский. Подготовка к экзаменам</button></li>
+            <li><a href="index.php">Английский язык</a></li>
+            <li><a href="german.php">Немецкий язык</a></li>
+            <li class="visible"><button id="<?=$adultMobile?>">Для взрослых</button></li>
+            <li class="hidden"><button id="<?=$pupilsMobile?>">Для школьников</button></li>
+            <li class="hidden"><button id="<?=$preschoolersMobile?>">Для дошкольников</button></li>
+            <li class="hidden"><button id="<?=$examMobile?>">Подготовка к экзаменам</button></li>
             <li>О нас</li>
             <li>Стоимость занятий</li>
             <li>Контакты</li>

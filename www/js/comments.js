@@ -6,7 +6,6 @@ $(function() {
     let flagOpenClose = true;
     let createComment = $('.createComment');
 
-
     open.click (function() {
         createComment.show();
         change();

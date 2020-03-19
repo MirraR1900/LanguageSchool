@@ -83,6 +83,11 @@
         font-size: 20px; 
     }
 
+    .formfreeLesson fieldset {
+        width: 300px;
+        margin: 0;
+    }
+
     .formfreeLesson label {
         font-size: 18px; 
     }
@@ -101,12 +106,17 @@
 
 @media only screen and (max-width: 320px) {
     .containerForm {
-        width: 300px;
+        width: 310px;
         margin: 10px auto; 
     }
 
     .formfreeLesson legend {
         font-size: 20px; 
+    }
+
+    .formfreeLesson fieldset {
+        width: 300px;
+        margin: 0;
     }
 
     .formfreeLesson label {

@@ -4,7 +4,7 @@
 <p>тел: +7(0000)000-000</p>
 <p>languageschool@gmail.com</p>
 </div>
-<div>
+<div class="linkFooter">
 <p><a href="#courses">Курсы</a></p> 
 <p><a href="#price">Стоимость</a></p>
 <p><a href="">Вакансии</a></p>
@@ -13,11 +13,10 @@
 </div>
 <script src="../js/menuAction.js"></script>
     <script src=<?=$pageStart?>></script>
-    <script src="../js/test.js"></script>
-    <script src="../js/price.js"></script>
+    <!-- <script src="../js/test.js"></script>
+    <script src="../js/price.js"></script> -->
     <script src="../js/checkingInputFields.js"></script>
     <script src="../js/sendFreelesson.js"></script>
-    <script src="../js/sendFormComment.js"></script>
     <script src="../js/comments.js"></script>
 </body>
 </html>

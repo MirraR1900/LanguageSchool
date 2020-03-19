@@ -124,15 +124,25 @@ span {
 
 .menuMobile li {
   text-align: center;
+  text-decoration: none;
   list-style-type: none;
   margin: 15px 0;
   font-size: 16px;
   font-weight: bold;
   color: rgb(255, 255, 255);
-  cursor: pointer;  /**/
 }
 
-#adultsEnMobile, #pupilsEnMobile, #preschoolersEnMobile, #examEnMobile {
+.menuMobile a {
+  text-decoration: none;
+}
+
+.menuMobile a:visited {
+  color: rgb(255, 255, 255);
+}
+
+
+#adultsEnMobile, #pupilsEnMobile, #preschoolersEnMobile, #examEnMobile, 
+#adultsDeMobile, #pupilsDeMobile, #preschoolersDeMobile, #examDeMobile {
   font-family: "Prata", serif;
   font-size: 16px;
   font-weight: bold;

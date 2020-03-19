@@ -1,6 +1,4 @@
-﻿<?php 
-?>
-<div class="comments" id="comments">
+﻿<div class="comments" id="comments">
 <div class="headlineLeft">
 <p>Отзывы наших учеников</p>
 </div>

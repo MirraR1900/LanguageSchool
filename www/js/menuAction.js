@@ -1,4 +1,26 @@
 $(function() {
+    let contentPage = $('#contentPage');
+    let adultsEn = 'page/adultsEn.php';
+    let pupilsEn = 'page/pupilsEn.php';
+    let preschoolersEn = 'page/preschoolersEn.php';
+    let examEn = 'page/examsEn.php';
+    
+    let adultsDe = 'page/adultsDe.php';
+    let pupilsDe = 'page/pupilsDe.php';
+    let preschoolersDe = 'page/preschoolersDe.php';
+    let examDe = 'page/examsDe.php';
+
+    let fontMobile = $('.fontMobile');
+    let adultsEnMobile = 'page/adultsEn.php';
+    let pupilsEnMobile = 'page/pupilsEn.php';
+    let preschoolersEnMobile = 'page/preschoolersEn.php';
+    let examEnMobile = 'page/examsEn.php';
+
+    let adultsDeMobile = 'page/adultsDe.php';
+    let pupilsDeMobile = 'page/pupilsDe.php';
+    let preschoolersDeMobile = 'page/preschoolersDe.php';
+    let examDeMobile = 'page/examsDe.php';
+
     $('#adultsEn').css({'border-bottom': '6px solid rgb(255, 255, 255)'});
     $('#adultsDe').css({'border-bottom': '6px solid rgb(255, 255, 255)'});
 
@@ -30,81 +52,59 @@ $(function() {
         $('.navigationList li button').css('filter', 'none');
     });
 
-    // The function for the mobile menu is responsible 
-    // for the appearance of the menu when you press the "Menu" button
-        $('#MenuBtn').click(function() {
-         $('.fontMobile').animate({opacity: 'toggle'}, 1500);
-        });
-
-        $('#closeMenu').click(function(){
-            $('.fontMobile').animate({opacity:'toggle'}, 1500);
-        });
-
-
-    // $('.navMobile').click(function() {
-    //     $('.menuMobile').animate({width:'toggle'}, 450);
-    // });
-
-    $('#adultsEn').click(function() {
-        $('#contentPage').load('page/adultsEn.php');
-    });
-    $('#pupilsEn').click(function() {
-        $('#contentPage').load('page/pupilsEn.php');
+    /* The function for the mobile menu is responsible 
+     for the appearance of the menu when you press the "Menu" button */
+    $('#MenuBtn').click(function() {
+       $('.fontMobile').animate({opacity: 'toggle'}, 1500);
     });
 
-    $('#preschoolersEn').click(function() {
-        $('#contentPage').load('page/preschoolersEn.php');
-    });
-    $('#examEn').click(function() {
-        $('#contentPage').load('page/examsEn.php');
+    $('#closeMenu').click(function(){
+        $('.fontMobile').animate({opacity:'toggle'}, 1500);
     });
 
-    $('#adultsDe').click(function() {
-        $('#contentPage').load('page/adultsDe.php');
-    });
-    $('#pupilsDe').click(function() {
-        $('#contentPage').load('page/pupilsDe.php');
-    });
+    // Desktop menu
+    $('#adultsEn').on('click', loadContent.bind(null, contentPage, adultsEn));
+    $('#pupilsEn').on('click', loadContent.bind(null, contentPage, pupilsEn));
+    $('#preschoolersEn').on('click', loadContent.bind(null, contentPage, preschoolersEn));
+    $('#examEn').on('click', loadContent.bind(null, contentPage, examEn));
 
-    $('#preschoolersDe').click(function() {
-        $('#contentPage').load('page/preschoolersDe.php');
-    });
-    $('#examDe').click(function() {
-        $('#contentPage').load('page/examsDe.php');
-    });    
-
-
+    $('#adultsDe').on('click', loadContent.bind(null, contentPage, adultsDe));
+    $('#pupilsDe').on('click', loadContent.bind(null, contentPage, pupilsDe));
+    $('#preschoolersDe').on('click', loadContent.bind(null, contentPage, preschoolersDe));
+    $('#examDe').on('click', loadContent.bind(null, contentPage, examDe));
 
    // Mobile menu
-    $('#adultsEnMobile').click(function() {
-        $('#contentPage').load('page/adultsEn.php');
-        $('.fontMobile').animate({opacity:'toggle'}, 400);
-    });
-    $('#pupilsEnMobile').click(function() {
-        $('#contentPage').load('page/pupilsEn.php');
-        $('.fontMobile').animate({opacity:'toggle'}, 400);
-    });
+    $('#adultsEnMobile').on('click', loadContent.bind(null, contentPage, adultsEnMobile));
+    $('#adultsEnMobile').on('click', closeMenu.bind(null, fontMobile));
 
-    $('#preschoolersEnMobile').click(function() {
-        $('#contentPage').load('page/preschoolersEn.php');
-        $('.fontMobile').animate({opacity:'toggle'}, 400);
-    });
-    $('#examEnMobile').click(function() {
-        $('#contentPage').load('page/examsEn.php');
-        $('.fontMobile').animate({opacity:'toggle'}, 400);
-    });
+    $('#pupilsEnMobile').on('click', loadContent.bind(null, contentPage, pupilsEnMobile));
+    $('#pupilsEnMobile').on('click', closeMenu.bind(null, fontMobile));
 
-    $('#adultsDe').click(function() {
-        $('#contentPage').load('page/adultsDe.php');
-    });
-    $('#pupilsDe').click(function() {
-        $('#contentPage').load('page/pupilsDe.php');
-    });
+    $('#preschoolersEnMobile').on('click', loadContent.bind(null, contentPage, preschoolersEnMobile, fontMobile));
+    $('#preschoolersEnMobile').on('click', closeMenu.bind(null, fontMobile));
 
-    $('#preschoolersDe').click(function() {
-        $('#contentPage').load('page/preschoolersDe.php');
-    });
-    $('#examDe').click(function() {
-        $('#contentPage').load('page/examsDe.php');
-    }); 
+    $('#examEnMobile').on('click', loadContent.bind(null, contentPage, examEnMobile, fontMobile));
+    $('#examEnMobile').on('click', closeMenu.bind(null, fontMobile));
+
+    $('#adultsDeMobile').on('click', loadContent.bind(null, contentPage, adultsDeMobile, fontMobile));
+    $('#adultsDeMobile').on('click', closeMenu.bind(null, fontMobile));
+
+    $('#pupilsDeMobile').on('click', loadContent.bind(null, contentPage, pupilsDeMobile, fontMobile));
+    $('#pupilsDeMobile').on('click', closeMenu.bind(null, fontMobile));
+
+    $('#preschoolersDeMobile').on('click', loadContent.bind(null, contentPage, preschoolersDeMobile, fontMobile));
+    $('#preschoolersDeMobile').on('click', closeMenu.bind(null, fontMobile));
+
+    $('#examDeMobile').on('click', loadContent.bind(null, contentPage, examDeMobile, fontMobile));
+    $('#examDeMobile').on('click', closeMenu.bind(null, fontMobile));
+
+    // Loads content to the page when clicking on the links in the menu
+    function loadContent(idContainer, path, menuMobile) {
+        $(idContainer).load(path);
+    }
+
+    // Closes mobile menu when clicking on the links in the menu
+    function closeMenu(menuMobile) {
+        menuMobile.animate({opacity:'toggle'}, 400);
+    }
 });

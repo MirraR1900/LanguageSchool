@@ -1,5 +1,3 @@
-<?php 
-?>
 <div class="comments" id="comments">
 <div class="headlineRight">
 <p>Отзывы наших учеников</p>
@@ -21,4 +19,5 @@
 </fieldset>
 <button type="submit">Отправить</button>
 </form>
+</div>
 </div>

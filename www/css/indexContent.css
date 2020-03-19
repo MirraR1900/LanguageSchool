@@ -344,6 +344,7 @@
       line-height: 20px;
       text-align: center;
       padding-top: 20px;
+      margin-left: 0;
     }
 
     .age, .article  {
