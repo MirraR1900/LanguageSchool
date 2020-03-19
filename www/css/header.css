@@ -85,7 +85,7 @@ span {
   margin-left: 10px;
 }
 
-.mobilInfo {
+.mobileInfo {
   color: white;
   font-size: 20px;
 }
@@ -114,14 +114,6 @@ span {
   border: none;
 }
 
-/* .contentLink {
-  border: 1px solid red;
-} */
-
-/* .menuMobile {
-  color: rgb(255, 255, 255);
-} */
-
 .menuMobile li {
   text-align: center;
   text-decoration: none;
@@ -134,6 +126,10 @@ span {
 
 .menuMobile a {
   text-decoration: none;
+}
+
+.menuMobile a:link {
+  color: rgb(255, 255, 255);
 }
 
 .menuMobile a:visited {
@@ -178,6 +174,28 @@ span {
   .titleMobile {
     height: 500px;
   }
+  #closeMenu { 
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+.menuMobile li {
+    font-size: 20px;
+  }
+
+  .menuMobile a:link {
+    font-size: 20px;
+  }
+  
+  .menuMobile a:visited {
+    font-size: 20px;
+  }
+
+  
+#adultsEnMobile, #pupilsEnMobile, #preschoolersEnMobile, #examEnMobile, 
+#adultsDeMobile, #pupilsDeMobile, #preschoolersDeMobile, #examDeMobile {
+  font-size: 20px;
+}
 }
 
 @media only screen and (max-width: 900px) {
@@ -188,7 +206,12 @@ span {
 
   .navMobile {
     display: block;
-    color: rgb(255, 255, 255);
+  }
+
+  .mobileInfo {
+    font-size: 30px;
+    font-family: 'Mansalva', cursive;
+    margin-left: 30px;
   }
 
   .font  {
@@ -216,7 +239,6 @@ span {
 
   .navMobile {
     display: block;
-    color: rgb(255, 255, 255);
   }
 
   .font  {
@@ -244,7 +266,6 @@ span {
 
   .navMobile {
     display: block;
-    color: rgb(255, 255, 255);
   }
 
   .font  {
@@ -272,7 +293,6 @@ span {
 
   .navMobile {
     display: block;
-    color: rgb(255, 255, 255);
   }
 
   .font  {
@@ -300,7 +320,6 @@ span {
 
   .navMobile {
     display: block;
-    color: rgb(255, 255, 255);
   }
 
   .font  {
@@ -317,7 +336,6 @@ span {
 
   .titleMobile {
     height: 160px;
-
   }
 }
 
@@ -329,7 +347,12 @@ span {
 
   .navMobile {
     display: block;
-    color: rgb(255, 255, 255);
+  }
+
+  .mobileInfo {
+    font-size: 20px;
+    font-family: 'Mansalva', cursive;
+    margin-left: 10px;
   }
 
   .font  {
@@ -356,7 +379,6 @@ span {
   }
   .navMobile {
     display: block;
-    color: rgb(255, 255, 255);
   }
 
   .font  {

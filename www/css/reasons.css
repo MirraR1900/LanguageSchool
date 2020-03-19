@@ -19,14 +19,7 @@
 .reason img{
   max-width: 100%;
 }
-/* .reasonNumber1 h2, .reasonNumber4 h2{
-  width: 200px; 
-  margin-top: 30px;
-} */
-/* .reasonNumber2 h2, .reasonNumber3 h2{
-  width: 200px; 
-  margin-top: 30px;
-} */
+
 .reason p {
   font-size: 18px;
   padding: 10px;
@@ -50,16 +43,83 @@
   .containerReasons {
     grid-template-columns: 1fr;
   }
+  .reasonNumber1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .reasonNumber2 {
+    border: 1px solid rgb(220, 220, 220);
+  }
+  .reasonNumber3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .reasonNumber4 {
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
 }
 
 @media only screen and (max-width: 380px) {
   .containerReasons {
     grid-template-columns: 1fr;
   }
+  .reasonNumber1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .reasonNumber2 {
+    border: 1px solid rgb(220, 220, 220);
+  }
+  .reasonNumber3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .reasonNumber4 {
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
 } 
+
+@media only screen and (max-width: 360px) {
+  .reasonNumber1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .reasonNumber2 {
+    border: 1px solid rgb(220, 220, 220);
+  }
+  .reasonNumber3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .reasonNumber4 {
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+  }
+}
 
 @media only screen and (max-width: 320px) {
   .containerReasons {
     grid-template-columns: 1fr;
+  }
+  .reasonNumber1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .reasonNumber2 {
+    border: 1px solid rgb(220, 220, 220);
+  }
+  .reasonNumber3 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  .reasonNumber4 {
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
 }
